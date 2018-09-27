@@ -167,8 +167,6 @@ def strTimeProp(start, end, format, prop):
 def randomDate(start, end, prop):
     return strTimeProp(start, end, '%Y/%m/%d', prop)
 
-print (randomDate("2008/1/1", "2009/1/1", rd.random()))
-
 def gen_build(number_of_rows, f):
     for i in range(number_of_rows):
         print(str(i+1) + '|' + str(rd.randint(0, 1000)) + '|' + str(rd.randint(0, 1000)) + '|' + \
