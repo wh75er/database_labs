@@ -103,7 +103,7 @@ def get_color():
 
 def gen_cameraBody(number_of_rows, f):
     for i in range(number_of_rows):
-        print(get_brand() + '|' + get_model() + '|' + get_mount() + '|' + get_megapixels() + '|' + get_color(), file=f)
+        print(str(i+1) + '|' + get_brand() + '|' + get_model() + '|' + get_mount() + '|' + get_megapixels() + '|' + get_color(), file=f)
 
 # -------------------------------------------------------------------------------------------
 
@@ -127,7 +127,7 @@ def get_diameter():
 
 def gen_lens(number_of_rows, f):
     for i in range(number_of_rows):
-        print(get_lens_name() + '|' + get_mount() + '|' + get_purpose_lens()  + \
+        print(str(i+1) + '|' + get_lens_name() + '|' + get_mount() + '|' + get_purpose_lens()  + \
                 '|' + get_diameter(), file=f)
 
 # -------------------------------------------------------------------------------------------
@@ -151,7 +151,7 @@ def get_purpose_filter():
 
 def gen_filter(number_of_rows, f):
     for i in range(number_of_rows):
-        print(get_filter_name() + '|' + get_purpose_filter() + '|' +  get_diameter(),
+        print(str(i+1) + '|' + get_filter_name() + '|' + get_purpose_filter() + '|' +  get_diameter(),
                 file=f)
 
 # -------------------------------------------------------------------------------------------
@@ -171,14 +171,14 @@ print (randomDate("2008/1/1", "2009/1/1", rd.random()))
 
 def gen_build(number_of_rows, f):
     for i in range(number_of_rows):
-        print(str(rd.randint(0, 1000)) + '|' + str(rd.randint(0, 1000)) + '|' + \
+        print(str(i+1) + '|' + str(rd.randint(0, 1000)) + '|' + str(rd.randint(0, 1000)) + '|' + \
                     str(rd.randint(0, 1000)) + '|' + str(rd.randint(351, 1410)) + '|' + \
                     randomDate("2008/1/1", "2018/09/01", rd.random()), file=f)
 
-gen_cameraBody(5, file_camBody)
-gen_lens(5, file_lens)
-gen_filter(5, file_filter)
-gen_build(5, file_camBuild)
+gen_cameraBody(1000, file_camBody)
+gen_lens(1000, file_lens)
+gen_filter(1000, file_filter)
+gen_build(1000, file_camBuild)
 
 
 file_lens.close()
