@@ -1,0 +1,1 @@
+databases course with labs(queries and generators and other stuff) 
