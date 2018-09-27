@@ -1,0 +1,161 @@
+CREATE TABLE Students(id int, FIO nvarchasr(100), Group hvarchar(10), Mark int)
+                        (1, 'Mapk', 'IU7-56B', 4)
+                        (2, 'Daria', 'IU7-56B', 5)
+                        (3, 'Maxim', 'NULL', 3)
+                        -(4, 'Sasha', 'IU7-53B', 2)
+I
+SELECT  AVG(Mark), Group
+FROM Students 
+WHERE Mark>2 
+GROUP BY Group 
+HAVING Group IS NOT NULL 
+ORDER BY FIO
+
+START:
+                        IU7-56B 4
+                        IU7-56B 5
+                        NULL 3
+NEXT():
+                        IU7-56B 4
+                        IU7-56B 5
+                        NULL 3
+NEXT():
+                        IU7-56B 4
+                        IU7-56B 5
+END(SELECT AVG(MARK), Group):
+                        IU7-56B 4.5
+
+
+CREATE TABLE Students(id int, FIO nvarchasr(100), Group hvarchar(10), Mark int, Absence int)
+                        (1, 'Mapk', 'IU7-56B', 4, 0)
+                        (2, 'Daria', 'IU7-56B', 5, 0)
+                        (3, 'Maxim', 'NULL', 3, 17)
+                        -(4, 'Sasha', 'IU7-53B', 2, 10)
+
+II
+SELECT Sum(Absence) AS 'Прогулы', Mark
+FROM Students
+WHERE Mark<5
+GROUP BY Mark
+HAVINNG AVG(Length(FIO))>3
+ORDER BY Прогулы DESC
+
+    17 3
+    10 2    
+    0 4
+
+
+Код запроса(вложенные запросы) - запрос в запросе. Они являются одним из способом получения данных из таблиц.
+Пример
+
+CREATE TABLE Students(id int, first_name nvarchasr(100), Group hvarchar(10), Mark int, Absence int, Subject nvarchar(50))
+                        (1, 'Mapk', 'IU7-56B', 4, 0, 'OOP')
+                        (2, 'Daria', 'IU7-56B', 5, 0, 'OOP')
+                        (3, 'Maxim', 'NULL', 3, 17, 'CG')
+                        -(4, 'Sasha', 'IU7-53B', 2, 10, 'DB')
+
+            Student_details(id, first_name, ..., sport_games, ...)
+
+SELECT id, first_name, sport_games
+FROM Students_details
+WHERE first_name IN                                 ; Получаем имена тех, у кого любимый предмет ООП
+                  (SELECT first_name
+                   FROM Students
+                   WHERE Subject ='OOP')
+
+Пример
+SELECT COUNT(made_only_recharge) AS made_only_recharge
+FROM 
+    (SELECT DISCTINCT(identifiant) AS made_only recharge
+     FROM cdr_data
+     WHERE CalledNumber='0130'
+    ) AS derivedTable
+
+
+
+JOIN - объединение таблиц - оператор языка SQL, который является оператором объединения в реляционной алгебре.
+В результате получается таблица с исходными строками склеянной из одной таблицы и другой.
+И эта склейка может зависить от условия.
+
+Пример
+
+CREATE TABLE Students(id int, first_name nvarchasr(100), Group hvarchar(10), Mark int, Absence int, Subject nvarchar(50))
+                        (1, 'Mapk', 'IU7-56B', 4, 0, 'OOP')
+                        (2, 'Daria', 'IU7-56B', 5, 0, 'OOP')
+                        (3, 'Maxim', 'NULL', 3, 17, 'CG')
+                        -(4, 'Sasha', 'IU7-53B', 2, 10, 'DB')
+
+
+CREATE TABLE Hobbies (id int, Studid int, Hobbie nvarchar(100))
+                    (1, 1, 'Теннис')
+                    (2, 2, 'Музыка')
+                    (3, 5, 'Фото')
+
+SELECT * FROM Students AS s
+INNER JOIN Hobbies AS h
+ON s.id=h.studid
+
+       id
+        1 'Mapk'  IU7-56B, 4, 0, 'OOP', 1, 1, 'Теннис'
+        2 'Mapk'  IU7-56B, 5, 0, 'OOP', 2, 2, 'Теннис'
+
+
+Внешнее соединение(левое)
+SELECT * FROM Students AS s
+LEFT OUTER JOIN Hobbies AS h
+ON s.id=h.studid
+
+       id
+        1 'Mapk'  IU7-56B, 4, 0, 'OOP', 1, 1, 'Теннис'
+        2 'Mapk'  IU7-56B, 5, 0, 'OOP', 2, 2, 'Теннис'
+        3 'Maxim' NULL,   5, 0, 'CG' , NULL, NULL, NULL
+        4 'Sasha' NULL,   2, 10, 'DB' , NULL, NULL, NULL
+
+
+Внешнее соединение(правое)
+SELECT * FROM Students AS s
+RIGHT OUTER JOIN Hobbies AS h
+ON s.id=h.studid
+    
+ id
+        1 'Mapk'  IU7-56B, 4, 0, 'OOP', 1, 1, 'Теннис'
+        2 'Mapk'  IU7-56B, 5, 0, 'OOP', 2, 2, 'Теннис'
+      NULL NULL  NULL,   NULL, NULL, NULL ,3, 5, 'ФОТО'
+
+
+Внешнее соединение(правое без пересечения)
+SELECT * FROM Students AS s
+RIGHT OUTER JOIN Hobbies AS h
+ON s.id=h.studid
+    WHERE s.id IS NULL 
+ 
+
+соединение(FULL JOIN)
+SELECT * FROM Students AS s
+FULL JOIN Hobbies AS h
+ON s.id=h.studid
+
+        1 'Mapk'  IU7-56B, 4, 0, 'OOP', 1, 1, 'Теннис'
+        2 'Mapk'  IU7-56B, 5, 0, 'OOP', 2, 2, 'Теннис'
+      NULL NULL  NULL,   NULL, NULL, NULL ,3, 5, 'ФОТО'
+        3 'Maxim'  NULL, 3, 17, 'CG', NULL, NULL, NULL
+        4 'Sasha'  IU7-53B, 2, 10, 'DB', NULL, NULL, NULL
+
+SELF JOIN - объединение таблицы на саму себя
+
+
+Как слить две таблицы в одну. Есть три основных алгоритма:
+    -Nested Loops Join(самый базовый и простой - два вложенных цикла, один по левой, другой по правой)
+                        Не требует никаких доп. действий
+                        В современных СУБД очень редко используется
+                        сложность O(M*N)
+    -Hash Join(Происходит за счет создания хештаблицы. Если таблицу можно целиком засунуть в память, 
+                То можно построить хештаблицу и быстро перемещаться по ключам, затем идем курсором по
+                таблицы и проверяем, нет ли такого в хеш таблицы, если есть, то добавляем в результирующую
+                таблицу)
+                        сложность O(N+M) + память
+    -Merge Join(Обе списка/таблицы отсортированы по возрастанию ключей.Ставим курсор на начало обих
+                списков. Если ключи под курсорами равны, то записываем в результирующую таблицу, если нет
+                смотрим под каким из курсоров ключ меньше, двигаем меньший курсор в сторону другого)
+                        сложность линейнай O(N+M)+сортировка
+                        При хорошей сортировки можно получить сложность O(MlogM+NlogN)+память
