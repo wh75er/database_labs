@@ -53,7 +53,7 @@ GO
 -- Create the table in the specified schema
 CREATE TABLE dbo.CameraBuild
 (
-    BuildId INT NOT NULL PRIMARY KEY,
+    BuildId INT IDENTITY(1, 1) PRIMARY KEY,
     -- primary key column
     CameraBodyId INT NOT NULL FOREIGN KEY REFERENCES CameraBody(CameraId),
     LensId INT NOT NULL FOREIGN KEY REFERENCES Lens(LensId),
