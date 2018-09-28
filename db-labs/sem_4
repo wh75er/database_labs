@@ -1,0 +1,38 @@
+оконные выражения
+
+OTB(CTE) combat table exception - временно результирующие наборы, которые не сохраняются в бд в виде объектов, но к ним можно обращаться
+используется для:
+    -рекурсивных запросов
+    -для замены представлений
+    -повышает читаемость кода путем разделения запроса на логические блоки(упрощает работу со сложными запросами)
+
+Рассмотрим простое OTB:
+В квадратных скобках можно не писать
+
+WITH TestCTE [(UserId, Past, ManagerId)] AS
+(SELECT UserId, Post, ManagerId
+    FROM Test Table
+)
+SELECT * FROM TestCTE;
+
+Рекурсивный запрос через OTB(Отображение иерархии):
+
+WITH TestCTE(UserId, Post, ManagerId, Level)
+AS
+(SELECT UserId, Post, ManagerId, 0 AS Level
+ FROM TestTablel WHERE ManagerId IS NULL
+ UNION ALL
+ SELECT t1.UserId, t1.Post, t1.ManagerId,
+        t2.Level+1
+ FROOM TestTable t2
+ JOIN TestCTE t2 ON t1.ManagerId=t2.UserId
+)
+SELECT * FROM TestCTE
+ORDER BY Level
+
+Чтобы ограничить рекурсию есть опция:
+OPTION(MAXRECURSION 5) -- максимальное ограничение вложенности рекурсии
+
+Таким образом, мы можем проверить, что наша рекурсия прошла правильно, если все закончилось
+хорошо, то данная функция не прервет выполнение рекурсии, в противном случае мы будем
+знать, что рекурсия не правильная
