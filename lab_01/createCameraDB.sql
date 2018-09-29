@@ -37,6 +37,9 @@ CREATE TABLE dbo.Lens
     Diameter INT NOT NULL
 );
 GO
+alter table Lens 
+ADD CONSTRAINT
+diameter_constr CHECK(Diameter > 0)
 
 
 -- Create the table in the specified schema
