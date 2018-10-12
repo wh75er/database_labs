@@ -20,7 +20,7 @@ CREATE TABLE dbo.CameraBody
     Brand [NVARCHAR](50) NOT NULL,
     Model [NVARCHAR](50) NOT NULL,
     Mount [NVARCHAR](50) NOT NULL,
-    Megapixels [nvarchar](50) NOT NULL,
+    Megapixels INT NOT NULL,
     [Color] [nvarchar](50) NOT NULL
 );
 GO
@@ -49,7 +49,7 @@ CREATE TABLE dbo.Filter
     -- primary key column
     Name [NVARCHAR](50) NOT NULL,
     Purpose [NVARCHAR](50) NOT NULL,
-    Diameter [NVARCHAR](50) NOT NULL
+    Diameter INT NOT NULL
 );
 GO
 
