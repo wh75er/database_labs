@@ -1,0 +1,1 @@
+SELECT * FROM dbo.AllBuildsAfterYear(2018)
