@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.SqlTypes;
+using System.Data.SqlClient;
 using Microsoft.SqlServer.Server;
 using System.Text; //stringbuffer
 using System.Collections.Generic; //list
@@ -66,22 +67,59 @@ namespace scalar_func
         }
     }
 
-    public class TableFunction
-    {
+    public class TabularPriceLog
+    {  
 
-        [SqlFunction(FillRowMethodName = "GenerateIntervalFillRow")]
-        public static IEnumerable GenerateInterval(SqlInt32 From, SqlInt32 To)
+        private class ResultRow
         {
-            int[] items = new int[To.Value - From.Value + 1];
-            for (int i = From.Value; i <= To.Value; i++)
-                items[i - From.Value] = i;
-
-            return items;
+            public SqlInt32 BuildId;
+            public SqlInt32 Price;
+    
+            public ResultRow(SqlInt32 buildid_, SqlInt32 price_)
+            {
+                BuildId = buildid_;
+                Price = price_;
+            }
         }
 
-        public static void GenerateIntervalFillRow(object o, out SqlInt32 item)
-        {
-            item = new SqlInt32((int)o);
-        }
+        [SqlFunction(
+        DataAccess = DataAccessKind.Read,
+        FillRowMethodName = "FillRow",
+        TableDefinition = "BuildId int" +
+                          "Price int")]  
+        public static IEnumerable InitMethod()  
+        {  
+            ArrayList results = new ArrayList();
+
+            using (SqlConnection connection = new SqlConnection("context connection=true"))
+            {
+                connection.Open();
+
+                using (SqlCommand select = new SqlCommand(
+                    "SELECT TOP 100 BuildId, Price FROM CameraBuild",
+                    connection))
+                {
+                    using (SqlDataReader reader = select.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            results.Add(new ResultRow(
+                                reader.GetSqlInt32(0),  // CustId
+                                reader.GetSqlInt32(1)  // Name
+                            ));
+                        }
+                    }
+                }
+            }
+            return results;
+        }  
+
+        public static void FillRow(Object obj, out SqlInt32 BuildId, out SqlInt32 Price)  
+        {  
+            ResultRow selectResults = (ResultRow)obj;
+
+            BuildId = selectResults.BuildId;
+            Price = selectResults.Price;
+        }  
     }
 }

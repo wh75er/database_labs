@@ -8,7 +8,7 @@ GO
 
 DROP FUNCTION dbo.scal_func
 DROP AGGREGATE dbo.PriceAvg
-DROP FUNCTION dbo.getInterval
+DROP FUNCTION dbo.getTopHund
 DROP ASSEMBLY funcs_assembly
 
 CREATE ASSEMBLY funcs_assembly
@@ -34,11 +34,11 @@ GO
 
 SELECT dbo.PriceAvg(BuildId, Price) FROM CameraBuild
 
-CREATE FUNCTION getInterval(@from int, @to int)
-RETURNS TABLE (ID int)
+CREATE FUNCTION getTopHund()
+RETURNS TABLE
+(BuildId int, Price int)
 AS
-        EXTERNAL NAME
-        funcs_assembly.[scalar_func.TableFunction].GenerateInterval
+        EXTERNAL NAME funcs_assembly.[scalar_func.TabularPriceLog].InitMethod;
 GO
 
-SELECT * FROM getInterval(10, 20)
+SELECT * FROM getTopHund()
