@@ -5,11 +5,24 @@ GO
 RECONFIGURE
 GO
 
+IF (EXISTS(select * from sys.assemblies where name = 'funcs_assembly'))
+BEGIN
+	-- remove the reference 
+	IF(EXISTS(select * from sys.objects where name = 'scal_func'))
+		DROP FUNCTION dbo.scal_func
+        IF(EXISTS(select * from sys.objects where name = 'PriceAvg'))
+		DROP AGGREGATE dbo.PriceAvg
+        IF(EXISTS(select * from sys.objects where name = 'getTopHund'))
+		DROP FUNCTION dbo.getTopHund
+        IF(EXISTS(select * from sys.objects where name = 'getOldBuilds'))
+		DROP PROCEDURE dbo.getOldBuilds
+	DROP ASSEMBLY funcs_assembly
+END
 
-DROP FUNCTION dbo.scal_func
-DROP AGGREGATE dbo.PriceAvg
-DROP FUNCTION dbo.getTopHund
-DROP ASSEMBLY funcs_assembly
+--DROP FUNCTION dbo.scal_func
+--DROP AGGREGATE dbo.PriceAvg
+--DROP FUNCTION dbo.getTopHund
+--DROP ASSEMBLY funcs_assembly
 
 CREATE ASSEMBLY funcs_assembly
 FROM '/opt/mssql/data/libs/scalar_func.dll'
@@ -22,8 +35,11 @@ AS
         funcs_assembly.[scalar_func.Class1].scal_func
 GO
 
-
-SELECT dbo.scal_func(350) AS 'SUM'
+CREATE FUNCTION getTopHund()
+RETURNS TABLE
+(BuildId int, Price int)
+AS
+        EXTERNAL NAME funcs_assembly.[scalar_func.TabularPriceLog].InitMethod;
 GO
 
 CREATE AGGREGATE PriceAvg(@value int, @price int)
@@ -32,13 +48,16 @@ RETURNS INT
         funcs_assembly.[scalar_func.PriceAvg]
 GO
 
-SELECT dbo.PriceAvg(BuildId, Price) FROM CameraBuild
-
-CREATE FUNCTION getTopHund()
-RETURNS TABLE
-(BuildId int, Price int)
+CREATE PROCEDURE getOldBuilds
 AS
-        EXTERNAL NAME funcs_assembly.[scalar_func.TabularPriceLog].InitMethod;
+        EXTERNAL NAME funcs_assembly.[scalar_func.StoredProcedure].getOldBuilds
 GO
 
+
+SELECT dbo.scal_func(350) AS 'SUM'
+
+SELECT dbo.PriceAvg(BuildId, Price) AS 'Avg price' FROM CameraBuild
+
 SELECT * FROM getTopHund()
+
+exec getOldBuilds

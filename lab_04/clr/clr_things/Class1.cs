@@ -122,4 +122,18 @@ namespace scalar_func
             Price = selectResults.Price;
         }  
     }
+
+    public partial class StoredProcedure
+    {
+        [Microsoft.SqlServer.Server.SqlProcedure]
+        public static void getOldBuilds ()
+        {
+            SqlContext.Pipe.Send("This is my CLR SP");
+            SqlConnection con = new SqlConnection("context connection=true");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from CameraBuild where year([Year]) < 2009", con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            SqlContext.Pipe.Send(reader);
+        }
+    }
 }
