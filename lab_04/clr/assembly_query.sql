@@ -16,6 +16,10 @@ BEGIN
 		DROP FUNCTION dbo.getTopHund
         IF(EXISTS(select * from sys.objects where name = 'getOldBuilds'))
 		DROP PROCEDURE dbo.getOldBuilds
+        IF(EXISTS(select * from sys.objects where name = 'triggerShowDelete'))
+		DROP TRIGGER dbo.triggerShowDelete
+        IF(EXISTS(select * from sys.objects where name = 'triggerShowInsert'))
+		DROP TRIGGER dbo.triggerShowInsert
 	DROP ASSEMBLY funcs_assembly
 END
 
@@ -53,6 +57,17 @@ AS
         EXTERNAL NAME funcs_assembly.[scalar_func.StoredProcedure].getOldBuilds
 GO
 
+CREATE TRIGGER triggerShowDelete
+ON CameraBuild
+FOR DELETE
+AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger_UserEmailAudit].EmailAudit
+GO
+
+CREATE TRIGGER triggerShowInsert
+ON CameraBuild
+FOR INSERT
+AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger_UserEmailAudit].EmailAudit
+GO
 
 SELECT dbo.scal_func(350) AS 'SUM'
 
@@ -61,3 +76,10 @@ SELECT dbo.PriceAvg(BuildId, Price) AS 'Avg price' FROM CameraBuild
 SELECT * FROM getTopHund()
 
 exec getOldBuilds
+
+INSERT CameraBuild(CameraBodyId, LensId, FilterId, Price, [Year])
+VALUES (200, 15, 319, 1337, '2008-06-29')
+INSERT CameraBuild(CameraBodyId, LensId, FilterId, Price, [Year])
+VALUES (222, 15, 319, 1337, '2008-06-29')
+
+DELETE FROM CameraBuild WHERE BuildId > 1000

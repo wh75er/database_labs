@@ -136,4 +136,49 @@ namespace scalar_func
             SqlContext.Pipe.Send(reader);
         }
     }
+
+    public class Trigger_UserEmailAudit
+    {
+        [SqlTrigger(Name = @"CameraBuild", Target = "[dbo].[Users]", Event = "FOR INSERT, DELETE")]
+        public static void EmailAudit()
+        {
+            SqlCommand command;
+            SqlTriggerContext triggContext = SqlContext.TriggerContext;
+            SqlPipe pipe = SqlContext.Pipe;
+            SqlDataReader reader;
+
+            switch (triggContext.TriggerAction)
+            {
+                case TriggerAction.Insert:
+                    SqlContext.Pipe.Send("You inserted something!");
+                    break;
+
+                case TriggerAction.Delete:
+                    using (SqlConnection connection= new SqlConnection(@"context connection=true"))
+                    {
+                        connection.Open();
+                        command = new SqlCommand(@"SELECT * FROM DELETED;",connection);
+                        reader = command.ExecuteReader();
+
+                        if (reader.HasRows)
+                        {
+                            pipe.Send(@"You deleted the following rows:");
+                            while (reader.Read())
+                            {
+                                pipe.Send(@"'" + reader.GetInt32(0).ToString()
+                                + @"', '" + reader.GetInt32(1).ToString() + @"'");
+                            }
+
+                            reader.Close();
+                        }
+                        else
+                        {
+                            pipe.Send("No rows affected.");
+                        }
+                    }
+
+                    break;
+            }
+        }
+    }
 }
