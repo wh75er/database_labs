@@ -60,13 +60,13 @@ GO
 CREATE TRIGGER triggerShowDelete
 ON CameraBuild
 FOR DELETE
-AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger_UserEmailAudit].EmailAudit
+AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger].cameraBuild
 GO
 
 CREATE TRIGGER triggerShowInsert
 ON CameraBuild
 FOR INSERT
-AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger_UserEmailAudit].EmailAudit
+AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger].cameraBuild
 GO
 
 SELECT dbo.scal_func(350) AS 'SUM'

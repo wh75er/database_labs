@@ -137,10 +137,10 @@ namespace scalar_func
         }
     }
 
-    public class Trigger_UserEmailAudit
+    public class Trigger
     {
         [SqlTrigger(Name = @"CameraBuild", Target = "[dbo].[Users]", Event = "FOR INSERT, DELETE")]
-        public static void EmailAudit()
+        public static void cameraBuild()
         {
             SqlCommand command;
             SqlTriggerContext triggContext = SqlContext.TriggerContext;
