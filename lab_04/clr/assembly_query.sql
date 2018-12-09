@@ -5,6 +5,7 @@ GO
 RECONFIGURE
 GO
 
+DROP TYPE dbo.myNumber
 IF (EXISTS(select * from sys.assemblies where name = 'funcs_assembly'))
 BEGIN
 	-- remove the reference 
@@ -20,6 +21,8 @@ BEGIN
 		DROP TRIGGER dbo.triggerShowDelete
         IF(EXISTS(select * from sys.objects where name = 'triggerShowInsert'))
 		DROP TRIGGER dbo.triggerShowInsert
+        IF(EXISTS(select * from sys.objects where name = 'myNumber'))
+		DROP TYPE dbo.myNumber
 	DROP ASSEMBLY funcs_assembly
 END
 
@@ -69,6 +72,11 @@ FOR INSERT
 AS EXTERNAL NAME funcs_assembly.[scalar_func.Trigger].cameraBuild
 GO
 
+
+CREATE TYPE myNumber
+EXTERNAL NAME funcs_assembly.[scalar_func.myNumber]
+GO
+
 SELECT dbo.scal_func(350) AS 'SUM'
 
 SELECT dbo.PriceAvg(BuildId, Price) AS 'Avg price' FROM CameraBuild
@@ -83,3 +91,15 @@ INSERT CameraBuild(CameraBodyId, LensId, FilterId, Price, [Year])
 VALUES (222, 15, 319, 1337, '2008-06-29')
 
 DELETE FROM CameraBuild WHERE BuildId > 1000
+
+CREATE TABLE #testing
+(
+        Id INT IDENTITY(1, 1) PRIMARY KEY,
+        [Number] myNumber
+)
+
+INSERT INTO #testing ([Number])
+VALUES ('809')
+
+INSERT INTO #testing ([Number])
+VALUES (13)

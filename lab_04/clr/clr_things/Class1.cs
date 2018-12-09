@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Data.SqlTypes;
 using System.Data.SqlClient;
 using Microsoft.SqlServer.Server;
@@ -179,6 +180,52 @@ namespace scalar_func
 
                     break;
             }
+        }
+    }
+
+    [Serializable]
+    [Microsoft.SqlServer.Server.SqlUserDefinedType(Format.Native)]
+    public struct myNumber : INullable
+    {
+        private SqlInt32 _value;
+        public SqlInt32 Value
+        {
+            get { return _value; }
+            set { _value = value; }
+        }
+    
+        public override string ToString()
+        {
+            return _value.ToString();
+        }
+    
+        private bool _isNull;
+        public bool IsNull
+        {
+            get
+            {
+                return _isNull;
+            }
+        }
+    
+        public static myNumber Null
+        {
+            get
+            {
+                myNumber h = new myNumber();
+                h._isNull = true;
+                return h;
+            }
+        }
+    
+        public static myNumber Parse(SqlString s)
+        {
+            if (s.IsNull)
+                return Null;
+            myNumber u = new myNumber();
+            string s_tmp = s.ToString();
+            u.Value = Int32.Parse(s_tmp);
+            return u;
         }
     }
 }
