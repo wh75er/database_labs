@@ -1,0 +1,2 @@
+SELECT * FROM dbo.CameraBody
+FOR XML PATH;

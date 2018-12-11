@@ -1,0 +1,8 @@
+<!ELEMENT ROOT (row*)>
+<!ELEMENT row (CameraId, Brand?, Model?, Mount?, Megapixels?, Color?)>
+<!ELEMENT CameraId (#PCDATA) >
+<!ELEMENT Brand (#PCDATA) >
+<!ELEMENT Model (#PCDATA) >
+<!ELEMENT Mount (#PCDATA) >
+<!ELEMENT Megapixels (#PCDATA) >
+<!ELEMENT Color (#PCDATA) >
