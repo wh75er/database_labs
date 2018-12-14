@@ -71,9 +71,9 @@ namespace lab6
             Console.WriteLine("2. with GetElementsById");
             Console.WriteLine("3. with SelectNodes");
             Console.WriteLine("4. with SelectSingleNode");
-            Console.WriteLine("5. Return to main menu");
+            Console.WriteLine("\n0. Return to main menu");
             string input = Console.ReadLine();
-            if (int.TryParse(input, out int option) && option >= 1 && option <= 5)
+            if (int.TryParse(input, out int option) && option >= 1 && option <= 4 || option == 0)
             {
                 switch (option)
                 {
@@ -81,7 +81,7 @@ namespace lab6
                     case 2: GetByID(); break;
                     case 3: GetByNode(); break;
                     case 4: GetBySingleNode(); break;
-                    case 5: MainMenu(); break;
+                    case 0: MainMenu(); break;
                 }
             }
             else
@@ -160,11 +160,15 @@ namespace lab6
         private void GetByNode()
         {
 
-            Console.WriteLine("\nNames of vampires");
+            Console.Write("\nPrice less than: ");
+            string value = Console.ReadLine();
             //linConsole.ReadLine()
-            XmlNodeList Node = myDocument.SelectNodes("//Monster[type='Vampire']");
-            for (int i = 0; i < Node.Count; i++)
-                Console.Write(Node[i].ChildNodes[0].InnerText + "\n");
+            XmlNodeList Nodes = myDocument.SelectNodes("//Build[Price < " + value +"]");
+            foreach (dynamic node in Nodes) {
+                foreach (dynamic info in node)
+                    Console.WriteLine(info.InnerText);
+                Console.WriteLine("----");
+            }
             Pause();
             Search();
         }
@@ -174,15 +178,15 @@ namespace lab6
         /// </summary>
         private void GetBySingleNode()
         {
-            //Console.WriteLine("Время начала встречи в комнате 3");
-            Console.WriteLine("\nEnter monster name:");
-            string line = Console.ReadLine();
-            //string.TryParse(line, out string n);
+            Console.Write("\nPrice less than: ");
+            string value = Console.ReadLine();
 
-            XmlNode Node = myDocument.SelectSingleNode($"//Monster[name='{line}']");
+            XmlNode Node = myDocument.SelectSingleNode($"//Build[Price<"+ value +"]");
             if (Node != null)
             {
-                Console.Write(Node.ChildNodes[1].InnerText + "\r\n");
+                foreach(dynamic info in Node) {
+                    Console.WriteLine(info.InnerText);
+                }
             }
             Pause();
             Search();
@@ -200,9 +204,9 @@ namespace lab6
             Console.WriteLine("3. to type nodes XmlComment");
             Console.WriteLine("4. to type nodes XmlProcessingInstruction");
             Console.WriteLine("5. to node atributes");
-            Console.WriteLine("6. Return to main menu");
+            Console.WriteLine("\n0. Return to main menu");
             string input = Console.ReadLine();
-            if (int.TryParse(input, out int option) && option >= 1 && option <= 6)
+            if (int.TryParse(input, out int option) && option >= 1 && option <= 6 || option == 0)
             {
                 switch (option)
                 {
@@ -211,14 +215,14 @@ namespace lab6
                     case 3: AccessComment(); break;
                     case 4: AccessInstruction(); break;
                     case 5: AccessAtr(); break;
-                    case 6: MainMenu(); break;
+                    case 0: MainMenu(); break;
                 }
             }
             else
             {
                 Console.WriteLine("Something wrong. Try again");
                 Pause();
-                Search();
+                NodeUsage();
             }
         }
 
@@ -227,11 +231,11 @@ namespace lab6
         /// </summary>
         private void AccessElement()
         {
-            Console.WriteLine("\nGetting ");
-            XmlElement monsters = (XmlElement)myDocument.DocumentElement.ChildNodes[0];
-            Console.Write(monsters.ChildNodes[0].Name + "\r\n");
+            XmlElement build = (XmlElement)myDocument.DocumentElement.ChildNodes[0];
+            Console.WriteLine(build);
+            Console.WriteLine(build.ChildNodes[0].InnerText);
             Pause();
-            MainMenu();
+            NodeUsage();
         }
 
         /// <summary>
@@ -242,9 +246,9 @@ namespace lab6
             Console.WriteLine("\nEnter number of node:");
             string input = Console.ReadLine();
             int.TryParse(input, out int i);
-            Console.Write(myDocument.DocumentElement.ChildNodes[i - 1].InnerText + "\r\n");
+            Console.WriteLine(myDocument.DocumentElement.ChildNodes[i - 1].InnerText);
             Pause();
-            MainMenu();
+            NodeUsage();
         }
 
         /// <summary>
@@ -255,9 +259,12 @@ namespace lab6
             Console.WriteLine("\nEnter number of node:");
             string input = Console.ReadLine();
             int.TryParse(input, out int i);
-            Console.Write(myDocument.DocumentElement.ChildNodes[i + 2].Value + "\r\n");
+
+            foreach (dynamic node in myDocument.DocumentElement.ChildNodes[i - 1])
+                if (node is XmlComment)
+                    Console.WriteLine(node.InnerText);
             Pause();
-            MainMenu();
+            NodeUsage();
         }
 
         /// <summary>
@@ -265,12 +272,19 @@ namespace lab6
         /// </summary>
         private void AccessInstruction()
         {
-            if (myDocument.FirstChild is XmlProcessingInstruction)
+            XmlProcessingInstruction pi = (XmlProcessingInstruction)myDocument.SelectSingleNode("processing-instruction('xml-stylesheet')");
+
+            if (pi != null)
             {
-                XmlProcessingInstruction processInfo = (XmlProcessingInstruction)myDocument.FirstChild;
-                Console.WriteLine(processInfo.Value);
+                Console.WriteLine(pi.Value);
                 Pause();
-                MainMenu();
+                NodeUsage();
+            }
+            else
+            {
+                Console.WriteLine("Something went wrong...");
+                Pause();
+                NodeUsage();
             }
         }
 
@@ -279,9 +293,7 @@ namespace lab6
         /// </summary>
         private void AccessAtr()
         {
-            Console.WriteLine("\nLevel 1 atributes");
-
-            Console.Write("The monster attributes are:\n" + myDocument.DocumentElement.GetAttribute("name"));
+            Console.Write("Build attribute:\n" + myDocument.DocumentElement.GetAttribute("Id"));
 
             foreach (XmlNode node in myDocument.ChildNodes)
             {
@@ -298,7 +310,7 @@ namespace lab6
                 }
             }
             Pause();
-            MainMenu();
+            NodeUsage();
         }
 
 
@@ -315,9 +327,9 @@ namespace lab6
             Console.WriteLine("3. Create new content");
             Console.WriteLine("4. Insert content");
             Console.WriteLine("5. Adding attributes");
-            Console.WriteLine("6. Return to main menu");
+            Console.WriteLine("\n0. Return to main menu");
             string input = Console.ReadLine();
-            if (int.TryParse(input, out int option) && option >= 1 && option <= 6)
+            if (int.TryParse(input, out int option) && option >= 1 && option <= 5 || option == 0)
             {
                 switch (option)
                 {
@@ -326,7 +338,7 @@ namespace lab6
                     case 3: ChangeNew(); break;
                     case 4: ChangeInsert(); break;
                     case 5: ChangeAddAtr(); break;
-                    case 6: MainMenu(); break;
+                    case 0: MainMenu(); break;
                 }
             }
             else
@@ -341,11 +353,13 @@ namespace lab6
         /// </summary>
         private void ChangeRemove()
         {
-            Console.WriteLine("\nDelete first monster name");
-            myDocument.DocumentElement.ChildNodes[0].RemoveChild(myDocument.DocumentElement.ChildNodes[0].ChildNodes[0]);
+            Console.WriteLine("\nDelete BodyId");
+            foreach (dynamic node in myDocument.DocumentElement.ChildNodes[0])
+                if (node.Name == "BodyId")
+                    myDocument.DocumentElement.ChildNodes[0].RemoveChild(node);
             Saver();
             Pause();
-            MainMenu();
+            Change();
         }
 
         /// <summary>
@@ -353,13 +367,13 @@ namespace lab6
         /// </summary>
         private void ChangeChange()
         {
-            Console.WriteLine("\nAdded ! to and of first name");
-            XmlNodeList times = myDocument.SelectNodes("//Monster/name/text()");
+            Console.WriteLine("\nMaking all builds free");
+            XmlNodeList times = myDocument.SelectNodes("//Build/Price/text()");
             for (int i = 0; i < times.Count; i++)
-                times[i].Value = times[i].Value + "!";
+                times[i].Value = "Free!";
             Saver();
             Pause();
-            MainMenu();
+            Change();
         }
 
         /// <summary>
@@ -367,20 +381,34 @@ namespace lab6
         /// </summary>
         private void ChangeNew()
         {
-            Console.WriteLine("Add monster to the end");
-            XmlElement newElement = myDocument.CreateElement("Monster");
-            XmlElement newName = myDocument.CreateElement("name");
-            XmlElement newType = myDocument.CreateElement("type");
-            XmlText newNameText = myDocument.CreateTextNode("NEW");
-            XmlText newTypeText = myDocument.CreateTextNode("ELEMENT");
-            newElement.AppendChild(newName);
-            newElement.AppendChild(newType);
-            newName.AppendChild(newNameText);
-            newType.AppendChild(newTypeText);
+            Console.WriteLine("Add build to the end");
+            XmlElement newElement = myDocument.CreateElement("Build");
+            XmlElement newBody = myDocument.CreateElement("BodyId");
+            XmlElement newLens = myDocument.CreateElement("LensId");
+            XmlElement newFilter = myDocument.CreateElement("FilterId");
+            XmlElement newPrice = myDocument.CreateElement("Price");
+            XmlElement newYear = myDocument.CreateElement("Year");
+            XmlText newBodyText = myDocument.CreateTextNode("999");
+            XmlText newLensText = myDocument.CreateTextNode("LensEMOS");
+            XmlText newFilterText = myDocument.CreateTextNode("Filter99");
+            XmlText newPriceText = myDocument.CreateTextNode("300$");
+            XmlText newYearText = myDocument.CreateTextNode("3010-20-10");
+
+            newElement.SetAttribute("Id", "9999");
+            newElement.AppendChild(newBody);
+            newElement.AppendChild(newLens);
+            newElement.AppendChild(newFilter);
+            newElement.AppendChild(newPrice);
+            newElement.AppendChild(newYear);
+            newBody.AppendChild(newBodyText);
+            newLens.AppendChild(newLensText);
+            newFilter.AppendChild(newFilterText);
+            newPrice.AppendChild(newPriceText);
+            newYear.AppendChild(newYearText);
             myDocument.DocumentElement.AppendChild(newElement);
             Saver();
             Pause();
-            MainMenu();
+            Change();
         }
 
 
@@ -389,7 +417,7 @@ namespace lab6
         /// </summary>
         private void ChangeInsert()
         {
-            Console.WriteLine("Enter content into monster with id 1");
+            Console.WriteLine("Insert to build element with Id = 1");
             Console.Write("Enter tag name:");
             string tag = Console.ReadLine();
 
@@ -401,7 +429,7 @@ namespace lab6
             myDocument.DocumentElement.FirstChild.AppendChild(newElement);
             Saver();
             Pause();
-            MainMenu();
+            Change();
         }
 
         /// <summary>
@@ -412,22 +440,22 @@ namespace lab6
             myDocument.DocumentElement.SetAttribute("NEW", "ATTR");
             Saver();
             Pause();
-            MainMenu();
+            Change();
         }
 
         private void Saver()
         {
             Directory.GetFiles(System.IO.Directory.GetCurrentDirectory());
 
-            var files = Directory.GetFiles(Directory.GetCurrentDirectory(), "task1-explicit*.xml");
+            var files = Directory.GetFiles(Directory.GetCurrentDirectory(), "common*.xml");
             var last = files.Max(file => file);
-            last = last.Replace("task1-explicit", "");
+            last = last.Replace("common", "");
             last = last.Replace(".xml", "");
             last = last.Replace(Directory.GetCurrentDirectory() + "\\", "");
             int n = 0;
             int.TryParse(last, out n);
             n += 1;
-            string filename = $"task1-explicit{n}.xml";
+            string filename = $"common{n}.xml";
             myDocument.Save(filename);
             Console.WriteLine($"File {filename} saved");
 
