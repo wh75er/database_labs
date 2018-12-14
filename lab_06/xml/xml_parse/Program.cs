@@ -461,39 +461,6 @@ namespace lab6
 
         }
 
-        private void Task()
-        {
-            Console.WriteLine("\nConverted all comments in tags");
-
-            XmlNodeList taglist = myDocument.GetElementsByTagName("row");
-            if (taglist.Count == 0)
-            {
-                Console.WriteLine("Nothing found");
-            }
-            foreach (XmlNode element in taglist)
-            {
-                XmlNodeList childs = element.ChildNodes;
-                foreach (XmlNode child in childs)
-                {
-                    XmlNodeType type = child.NodeType;
-                    if (type == XmlNodeType.Comment)
-                    {
-                        Console.WriteLine(child.Value);
-                        XmlElement newTag = myDocument.CreateElement(child.Value);
-                        XmlText newTagText = myDocument.CreateTextNode("NEW");
-                        newTag.AppendChild(newTagText);
-                        element.AppendChild(newTag);
-
-                    }
-                }
-            }
-
-
-            Saver();
-            Pause();
-            MainMenu();
-        }
-
         private void Pause()
         {
             do {
@@ -512,10 +479,9 @@ namespace lab6
             Console.WriteLine("2. Search for information contained in the document.");
             Console.WriteLine("3. Access to node content");
             Console.WriteLine("4. Document changes.");
-            Console.WriteLine("5. Task.");
             Console.WriteLine("\n0. Exit.");
             string input = Console.ReadLine();
-            if (int.TryParse(input, out int option) && option >= 1 && option <= 5 || option == 0)
+            if (int.TryParse(input, out int option) && option >= 1 && option <= 4 || option == 0)
             {
                 switch (option)
                 {
@@ -523,7 +489,6 @@ namespace lab6
                     case 2: Search(); break;
                     case 3: NodeUsage(); break;
                     case 4: Change(); break;
-                    case 5: Task(); break;
                     case 0: Console.Clear(); break;
                 }
             }
