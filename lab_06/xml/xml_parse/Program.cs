@@ -443,6 +443,32 @@ namespace lab6
             Change();
         }
 
+        private void Task()
+        {
+            string commentText = "";
+            foreach (XmlNode node in myDocument.ChildNodes)
+            {
+                foreach (XmlNode nodeChildNode in node.ChildNodes)
+                {
+                    XmlAttributeCollection myAttributes1 = nodeChildNode.Attributes;
+                    if (myAttributes1 != null)
+                    {
+                        foreach (XmlAttribute atr in myAttributes1)
+                        {
+                            commentText += "Attribute: " + atr.Name + " = " + atr.Value + "\n";
+                        }
+                    }
+                }
+            }
+
+            XmlComment comment = myDocument.CreateComment(commentText);
+            myDocument.DocumentElement.AppendChild(comment);
+            
+            Saver();
+            MainMenu();
+        }
+
+
         private void Saver()
         {
             Directory.GetFiles(System.IO.Directory.GetCurrentDirectory());
@@ -479,9 +505,10 @@ namespace lab6
             Console.WriteLine("2. Search for information contained in the document.");
             Console.WriteLine("3. Access to node content");
             Console.WriteLine("4. Document changes.");
+            Console.WriteLine("5. Exercise.");
             Console.WriteLine("\n0. Exit.");
             string input = Console.ReadLine();
-            if (int.TryParse(input, out int option) && option >= 1 && option <= 4 || option == 0)
+            if (int.TryParse(input, out int option) && option >= 1 && option <= 5 || option == 0)
             {
                 switch (option)
                 {
@@ -489,6 +516,7 @@ namespace lab6
                     case 2: Search(); break;
                     case 3: NodeUsage(); break;
                     case 4: Change(); break;
+                    case 5: Task(); break;
                     case 0: Console.Clear(); break;
                 }
             }
