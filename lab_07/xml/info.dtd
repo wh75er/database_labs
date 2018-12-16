@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ROOT [
+<!ELEMENT ROOT (row+)>
+<!ELEMENT row(CameraId, Brand, Model, Mount, Megapixels, Color)>
+<!ELEMENT CameraId ID #REQUIRED>
+<!ELEMENT Brand (#PCDATA) >
+<!ELEMENT Model (#PCDATA) >
+<!ELEMENT Mount (#PCDATA) >
+<!ELEMENT Megapixels (#PCDATA) >
+<!ELEMENT Color (#PCDATA) >
+]>
