@@ -136,19 +136,25 @@ namespace demo_linq
         static void Main(string[] args)
         {
             Program app = new Program();
-            app.GroupInnerJoin();
+            Console.WriteLine("> Regular linq queries:\n");
+            app.RegularQueries();
+
+            Console.WriteLine("\n> linq to xml queries:\n");
             //app.ChildXml();
             //app.RenameXml();
-            app.sqlQuery();
+
+            Console.WriteLine("\n> linq to sql queries:\n");
+            //app.sqlQuery();
             //app.InsertRow();
-            app.DeleteRow();
-            app.UpdateRow();
-            app.storedProc();
+            //app.DeleteRow();
+            //app.UpdateRow();
+            //app.storedProc();
         }
 
-        void GroupInnerJoin()
+        void RegularQueries()
         {
-            var groupJoinQuery2 =
+
+            var groupJoinQuery =
                 from job in jobs
                 orderby job.ID
                 join empl in employees on job.ID equals empl.JobID into EmplGroup 
@@ -162,8 +168,8 @@ namespace demo_linq
 
             int totalItems = 0;
 
-            Console.WriteLine("GroupInnerJoin:");
-            foreach (var employeeGroup in groupJoinQuery2)
+            Console.WriteLine("group join:");
+            foreach (var employeeGroup in groupJoinQuery)
             {
                 Console.WriteLine(employeeGroup.Job);
                 foreach (var emplItem in employeeGroup.Employees)
@@ -172,7 +178,81 @@ namespace demo_linq
                     Console.WriteLine("  {0} {1}", emplItem.Name, emplItem.JobID);
                 }
             }
-            Console.WriteLine("GroupInnerJoin: {0} items in {1} named groups\n", totalItems, groupJoinQuery2.Count());
+            Console.WriteLine("group join: {0} items in {1} named groups\n", totalItems, groupJoinQuery.Count());
+
+            Console.WriteLine("People catalog:\n");
+            var catalog =
+                from job in jobs
+                orderby job.ID
+                join empl in employees on job.ID equals empl.JobID into EmplGroup
+                from man in EmplGroup
+                select new
+                {
+                    Job = job.Name,
+                    Name = man.Name
+                };
+
+                foreach (var info in catalog) {
+                    Console.WriteLine("\tName is {0}, his(her) job is {1}", info.Name, info.Job);
+                }
+
+            Console.WriteLine("\nNested query:\n");
+            var nested = 
+                from empl in employees
+                orderby empl.Name
+                where empl.Age > 25 && empl.JobID == 
+                    (
+                    from job in jobs
+                    where job.Name == "Fireman"
+                    select job.ID
+                    ).FirstOrDefault()
+                select empl;
+
+            foreach (var empl in nested) {
+                Console.WriteLine("\t {0} is fireman(jobId is {1}) and his(her) age is {2} (> 25)", empl.Name, empl.JobID, empl.Age);
+            }
+
+            Console.WriteLine("\nGroupBy query:");
+            var groupBy =
+                from empl in employees
+                group empl by empl.JobID into sg
+                orderby sg.Key
+                select new
+                {
+                    jobId = sg.Key,
+                    names = from empl2 in sg
+                            orderby empl2.JobID
+                            select empl2
+                };
+
+            foreach (var grp in groupBy) {
+                Console.WriteLine("\nJob id group {0}\n", grp.jobId);
+                foreach (var employee in grp.names) {
+                    Console.WriteLine("\tName:{0}, Age:{1}", employee.Name, employee.Age);
+                }
+            }
+
+            Console.WriteLine("\nGroupBy with where query:");
+            var groupByWhere =
+                from empl in employees
+                where empl.Age > 100
+                group empl by empl.JobID into sg
+                orderby sg.Key
+                select new
+                {
+                    jobId = sg.Key,
+                    names = from empl2 in sg
+                            orderby empl2.JobID
+                            select empl2
+                };
+
+            foreach (var grp in groupByWhere) {
+                Console.WriteLine("\nJob id group {0}\n", grp.jobId);
+                foreach (var employee in grp.names) {
+                    Console.WriteLine("\tName:{0}, Age:{1}", employee.Name, employee.Age);
+                }
+            }
+
         }
 
         void ChildXml()
