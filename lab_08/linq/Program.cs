@@ -140,15 +140,15 @@ namespace demo_linq
             app.RegularQueries();
 
             Console.WriteLine("\n> linq to xml queries:\n");
-            //app.ChildXml();
-            //app.RenameXml();
+            app.ChildXml();
+            app.RenameXml();
 
             Console.WriteLine("\n> linq to sql queries:\n");
-            //app.sqlQuery();
-            //app.InsertRow();
-            //app.DeleteRow();
-            //app.UpdateRow();
-            //app.storedProc();
+            app.sqlQuery();
+            app.InsertRow();
+            app.DeleteRow();
+            app.UpdateRow();
+            app.storedProc();
         }
 
         void RegularQueries()
