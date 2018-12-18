@@ -5,32 +5,55 @@ using System.Text;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Lab9.NET
+namespace dotnet
 {
-    class Tasks
+    class Program
     {
         private readonly string connectionString = @"Data Source=localhost; database = CameraDB; user id = sa; password = Qwerty12";
 
         static void Main(string[] args)
         {
-            Tasks solution = new Tasks();
+            Program cls = new Program();
 
-            ///solution.connectedObjects_task_1_ConnectionString();
-            ///solution.connectedObjects_task_2_SimpleScalarSelection();
-            ///solution.connectedObjects_task_3_SqlCommand_SqlDataReader();
-            ///solution.connectedObjects_task_4_SqlCommandWithParameters();
-            ///solution.connectedObjects_task_5_SqlCommand_StoredProcedure();
-            ///solution.disconnectedObjects_task_6_DataSetFromTable();
-            ///solution.disconnectedObjects_task_7_FilterSort();
-            ///solution.disconnectedObjects_8_Insert();
-            ///solution.disconnectedObjects_9_Delete();
-            solution.disconnectedObjects_10_Xml();
+            
+            Console.WriteLine("Connected objects\n");
+
+            Console.WriteLine("Connection class");
+            cls.connectedObjects_ConnectionString();
+
+            Console.WriteLine("Command class");
+            cls.connectedObjects_SimpleScalarSelection();
+
+            Console.WriteLine("Reader class");
+            cls.connectedObjects_SqlCommand_SqlDataReader();
+
+            Console.WriteLine("Parameter class");
+            cls.connectedObjects_SqlCommandWithParameters();
+
+            Console.WriteLine("Reader class(working with sp)");
+            cls.connectedObjects_SqlCommand_StoredProcedure();
+
+
+            Console.WriteLine("Disconnected objects\n");
+
+            Console.WriteLine("DataAdapter/DataSet class");
+            cls.disconnectedObjects_DataSetFromTable();
+
+            Console.WriteLine("DataTable class");
+            cls.disconnectedObjects_FilterSort();
+
+            Console.WriteLine("DataRow/DataTable/DataAdapter class:");
+            cls.disconnectedObjects_Insert();
+
+            Console.WriteLine("DataRow/DataTable/DataAdapter class:");
+            cls.disconnectedObjects_Delete();
+
+            Console.WriteLine("DataAdapter/DataSet/DataTable class:");
+            cls.disconnectedObjects_Xml();
         }
 
-        public void connectedObjects_task_1_ConnectionString()
+        public void connectedObjects_ConnectionString()
         {
-            Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 1, "[Connected] Shows connection info.");
 
             SqlConnection connection = new SqlConnection(connectionString);
             try
@@ -54,10 +77,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void connectedObjects_task_2_SimpleScalarSelection()
+        public void connectedObjects_SimpleScalarSelection()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 2, "[Connected] Simple scalar query.");
 
             string queryString = @"select count(*) from CameraBuild";
             SqlConnection connection = new SqlConnection(connectionString);
@@ -82,10 +104,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void connectedObjects_task_3_SqlCommand_SqlDataReader()
+        public void connectedObjects_SqlCommand_SqlDataReader()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 3, "[Connected] DataReader for query.");
 
             string queryString = @"select * from CameraBody where cameraId < 11";
             SqlConnection connection = new SqlConnection(connectionString);
@@ -114,10 +135,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void connectedObjects_task_4_SqlCommandWithParameters()
+        public void connectedObjects_SqlCommandWithParameters()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 4, "[Connected] SqlCommand (Insert, Delete).");
 
             string preferenceQuery = @"select body.Brand, body.Model, body.Megapixels, body.Color, build.Price " + 
                                         "from CameraBody as body " + 
@@ -180,10 +200,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void connectedObjects_task_5_SqlCommand_StoredProcedure()
+        public void connectedObjects_SqlCommand_StoredProcedure()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 5, "[Connected] Stored procedure.");
 
             SqlConnection connection = new SqlConnection(connectionString);
 
@@ -220,10 +239,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void disconnectedObjects_task_6_DataSetFromTable()
+        public void disconnectedObjects_DataSetFromTable()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 6, "[Disconnected] DataSet from the table.");
 
             string query = @"select Year, Price from CameraBuild where Price > 1400 order by Year";
 
@@ -256,10 +274,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void disconnectedObjects_task_7_FilterSort()
+        public void disconnectedObjects_FilterSort()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 7, "[Disconnected] Filter and sort.");
 
             string query = @"select * from CameraBody";
             SqlConnection connection = new SqlConnection(connectionString);
@@ -303,10 +320,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void disconnectedObjects_8_Insert()
+        public void disconnectedObjects_Insert()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 8, "[Disconnected] Insert.");
 
             string dataCommand = @"select * from Filter";
             string insertQueryString = @"insert into Filter(Name, Purpose, Diameter) values (@name, @purpose, @diameter)";
@@ -371,10 +387,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void disconnectedObjects_9_Delete()
+        public void disconnectedObjects_Delete()
         {
             Console.WriteLine("".PadLeft(79, '-'));
-            Console.WriteLine("Task #{0}: {1}", 9, "[Disconnected] Delete.");
 
             string dataCommand = @"select * from Filter";
             string deleteQueryString = @"delete from Filter where Name = @name";
@@ -430,10 +445,9 @@ namespace Lab9.NET
             Console.ReadLine();
         }
 
-        public void disconnectedObjects_10_Xml()
+        public void disconnectedObjects_Xml()
         {
             Console.WriteLine("".PadLeft(80, '-'));
-            Console.WriteLine("Task #{0}: {1}", 10, "WriteXml.");
 
             string query = @"select * from CameraBuild";
 
