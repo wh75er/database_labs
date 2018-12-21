@@ -35,7 +35,10 @@ namespace table_func
                 connection.Open();
 
                 using (SqlCommand select = new SqlCommand(
-                    "SELECT TOP 100 Fio FROM rk3.employees",
+                    "SELECT e.Fio " + 
+                    "FROM rk3.employees e " +
+                    "JOIN rk3.course c ON c.id = e.courseId " + 
+                    "WHERE c.Name = 'RTDM Administration'",
                     connection))
                 {
                     using (SqlDataReader reader = select.ExecuteReader())

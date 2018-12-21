@@ -10,7 +10,7 @@ BEGIN
 	-- remove the reference 
 	IF(EXISTS(select * from sys.objects where name = 'func'))
 		DROP FUNCTION dbo.func
-	DROP ASSEMBLY funcu_assembly
+	DROP ASSEMBLY func_assembly
 END
 
 CREATE ASSEMBLY func_assembly
