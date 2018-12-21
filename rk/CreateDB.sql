@@ -1,0 +1,12 @@
+USE master
+GO
+IF NOT EXISTS (
+   SELECT name
+   FROM sys.databases
+   WHERE name = N'RK3'
+)
+CREATE DATABASE [RK3]
+GO
+
+ALTER DATABASE [RK3] SET QUERY_STORE=ON
+GO
