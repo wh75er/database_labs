@@ -137,18 +137,18 @@ namespace demo_linq
         {
             Program app = new Program();
             Console.WriteLine("> Regular linq queries:\n");
-            app.RegularQueries();
+            //app.RegularQueries();
 
             Console.WriteLine("\n> linq to xml queries:\n");
-            app.ChildXml();
+            //app.ChildXml();
             app.RenameXml();
 
             Console.WriteLine("\n> linq to sql queries:\n");
-            app.sqlQuery();
-            app.InsertRow();
-            app.DeleteRow();
-            app.UpdateRow();
-            app.storedProc();
+            //app.sqlQuery();
+            //app.InsertRow();
+            //app.DeleteRow();
+            //app.UpdateRow();
+            //app.storedProc();
         }
 
         void RegularQueries()
@@ -271,10 +271,10 @@ namespace demo_linq
             XElement root = XElement.Load("common.xml");
 
             foreach (XElement el in root.Elements())
-                if ((int)el.Element("Price") == 613)
-                {
-                    el.Element("Price").Value = "88005553555";
-                }
+                //if ((int)el.Element("Price") == 613)
+                //{
+                el.Element(el => el.Element("Price") == "Price").Value = "88005553555";
+                //}
 
             root.Add(new XElement("NEW",
                 new XElement("Neu", "Element")));

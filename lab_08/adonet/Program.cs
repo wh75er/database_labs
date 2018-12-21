@@ -19,13 +19,13 @@ namespace dotnet
             Console.WriteLine("Connected objects\n");
 
             Console.WriteLine("Connection class");
-            cls.connectedObjects_ConnectionString();
+            //cls.connectedObjects_ConnectionString();
 
             Console.WriteLine("Command class");
-            cls.connectedObjects_SimpleScalarSelection();
+            //cls.connectedObjects_SimpleScalarSelection();
 
             Console.WriteLine("Reader class");
-            cls.connectedObjects_SqlCommand_SqlDataReader();
+            //cls.connectedObjects_SqlCommand_SqlDataReader();
 
             Console.WriteLine("Parameter class");
             cls.connectedObjects_SqlCommandWithParameters();
