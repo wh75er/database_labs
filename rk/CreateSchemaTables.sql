@@ -1,25 +1,23 @@
 CREATE SCHEMA rk3
 
-IF OBJECT_ID('rk3.employees', 'U') IS NOT NULL
-DROP TABLE rk3.employees
+IF OBJECT_ID('rk3.students', 'U') IS NOT NULL
+DROP TABLE rk3.students
 GO
-IF OBJECT_ID('rk3.course', 'U') IS NOT NULL
-DROP TABLE rk3.course
+IF OBJECT_ID('rk3.teachers', 'U') IS NOT NULL
+DROP TABLE rk3.teachers
 GO
-CREATE TABLE rk3.course (
+CREATE TABLE rk3.teachers (
     id INT IDENTITY(1, 1) PRIMARY KEY,
     [Name] [NVARCHAR](50) NOT NULL,
-    [Date] DATE NOT NULL,
     Spec [NVARCHAR](50) NOT NULL,
-    [Time] TIME NOT NULL,
     People INT NOT NULL
 )
 
-CREATE TABLE rk3.employees (
+CREATE TABLE rk3.students (
     id INT IDENTITY(1, 1) PRIMARY KEY,
-    Fio [NVARCHAR](50) NOT NULL,
+    [Name] [NVARCHAR](50) NOT NULL,
     Birthday DATE NOT NULL,
     Spec [NVARCHAR](50) NOT NULL,
-    LastDate DATE NOT NULL,
-    courseId INT NOT NULL FOREIGN KEY REFERENCES rk3.course(id)
+    courseTheme [NVARCHAR](50) NOT NULL,
+    teacherId INT FOREIGN KEY REFERENCES rk3.teachers(id)
 )

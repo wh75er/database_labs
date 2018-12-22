@@ -14,18 +14,20 @@ namespace table_func
 
         private class ResultRow
         {
-            public SqlString Name;
+            public SqlInt32 Count;
+            public SqlInt32 People;
     
-            public ResultRow(SqlString name_)
+            public ResultRow(SqlInt32 people_, SqlInt32 count_)
             {
-                Name = name_;
+                People = people_;
+                Count = count_;
             }
         }
 
         [SqlFunction(
         DataAccess = DataAccessKind.Read,
         FillRowMethodName = "FillRow",
-        TableDefinition = "Name string")]  
+        TableDefinition = "Count int, People int")]  
         public static IEnumerable InitMethod()  
         {  
             ArrayList results = new ArrayList();
@@ -35,10 +37,9 @@ namespace table_func
                 connection.Open();
 
                 using (SqlCommand select = new SqlCommand(
-                    "SELECT e.Fio " + 
-                    "FROM rk3.employees e " +
-                    "JOIN rk3.course c ON c.id = e.courseId " + 
-                    "WHERE c.Name = 'RTDM Administration'",
+                    "select count(*), MAX(t.People) from rk3.teachers t " +
+                    "JOIN rk3.students s ON s.teacherId = t.id " +
+                    "GROUP BY s.teacherId",
                     connection))
                 {
                     using (SqlDataReader reader = select.ExecuteReader())
@@ -46,7 +47,8 @@ namespace table_func
                         while (reader.Read())
                         {
                             results.Add(new ResultRow(
-                                reader.GetSqlString(0)  // String
+                                reader.GetSqlInt32(0),  // String
+                                reader.GetSqlInt32(1)  // String
                             ));
                         }
                     }
@@ -55,11 +57,12 @@ namespace table_func
             return results;
         }  
 
-        public static void FillRow(Object obj, out SqlString Name)  
+        public static void FillRow(Object obj, out SqlInt32 Count, out SqlInt32 People)  
         {  
             ResultRow selectResults = (ResultRow)obj;
 
-            Name = selectResults.Name;
+            Count = selectResults.Count;
+            People = selectResults.People;
         }  
     }
 }

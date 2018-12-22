@@ -13,39 +13,35 @@ namespace linq
     {
         #region Data
 
-        [Table(Name = "rk3.course")]
-        class courses
+        [Table(Name = "rk3.teachers")]
+        class teachers
         {
             [Column(Name = "id", IsPrimaryKey = true, IsDbGenerated = true)]
-            public int id { get; set; }
+            public int tid { get; set; }
             [Column(Name = "Name")]
-            public string name { get; set; }
-            [Column(Name = "Date")]
-            public DateTime date { get; set; }
+            public string tname { get; set; }
             [Column(Name = "Spec")]
-            public string spec { get; set; }
-            [Column(Name = "Time")]
-            public string time { get; set; }
+            public string tspec { get; set; }
             [Column(Name = "People")]
             public int people { get; set; }
     
         }
 
-        [Table(Name = "rk3.employees")]
-        class employees
+        [Table(Name = "rk3.students")]
+        class students 
         {
             [Column(Name = "id", IsPrimaryKey = true, IsDbGenerated = true)]
             public int id { get; set; }
-            [Column(Name = "Fio")]
-            public string fio { get; set; }
-            [Column(Name = "Birhday")]
+            [Column(Name = "Name")]
+            public string name { get; set; }
+            [Column(Name = "Birthday")]
             public DateTime birthday { get; set; }
             [Column(Name = "Spec")]
             public string spec { get; set; }
-            [Column(Name = "LastDate")]
-            public DateTime lastDate { get; set; }
-            [Column(Name = "courseId")]
-            public int courseId { get; set; }
+            [Column(Name = "courseTheme")]
+            public string theme { get; set; }
+            [Column(Name = "teacherId")]
+            public Nullable<int> teacherId { get; set; }
     
         }
 
@@ -58,33 +54,58 @@ namespace linq
         {
             Program app = new Program();
 
-            app.test_query();
-            app.old_employee();
+            //app.test_query();
+            app.bad_student();
+            app.best_choice();
         }
 
-        void old_employee() {
+        void bad_student() {
             DataContext db = new DataContext(connectionString);
-            Table<employees> emps = db.GetTable<employees>();
+            Table<students> students = db.GetTable<students>();
             var q = 
-                from emp in emps
-                where (2018-emp.lastDate.Year) > 3
+                from student in students
+                where (student.teacherId == null)
                 select new {
-                    Name = emp.fio,
-                    Spec = emp.spec
+                    Name = student.name,
+                    Spec = student.spec
                 };
             foreach (var row in q) {
                 Console.WriteLine("{0}, {1}", row.Name, row.Spec);
             }
         }
 
+        void best_choice() {
+            DataContext db = new DataContext(connectionString);
+            Table<students> students = db.GetTable<students>();
+            Table<teachers> teachers = db.GetTable<teachers>();
+
+            Console.WriteLine("Best choice:");
+
+            var q =  
+                from student in students
+                where student.teacherId == null
+                join teacher in teachers on student.spec equals teacher.tspec into joined
+                from a in joined
+                select new {
+                    tname = a.tname,
+                    name = student.name,
+                    spec = a.tspec
+                }
+                ;
+            
+            foreach (var row in q) {
+                Console.WriteLine("Student name: {0}, Teacher name: {1}, Spec: {2}" , row.name, row.tname, row.spec);
+            }
+        }
+
         void test_query() {
             DataContext db = new DataContext(connectionString);
-            Table<courses> crses = db.GetTable<courses>();
+            Table<students> students = db.GetTable<students>();
             var q = 
-                from course in crses
-                select course;
+                from student in students 
+                select student;
             foreach (var row in q) {
-                Console.WriteLine("{0}, {1}", row.id, row.name);
+                Console.WriteLine("{0}, {1}, {2}", row.id, row.name, row.teacherId);
             }
         }
     }

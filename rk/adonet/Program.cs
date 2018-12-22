@@ -15,14 +15,13 @@ namespace dotnet
         {
             Program cls = new Program();
 
-            cls.test_query();
-            cls.old_employee();
-
+            cls.bad_student();
+            cls.best_choice();
         }
 
-        void old_employee() 
+        void bad_student() 
         {
-            string queryString = @"select * from rk3.course";
+            string queryString = @"select * from rk3.students where teacherId IS NULL";
             SqlConnection connection = new SqlConnection(connectionString);
 
             SqlCommand dataQueryCommand = new SqlCommand(queryString, connection);
@@ -31,23 +30,33 @@ namespace dotnet
             SqlDataReader dataReader = dataQueryCommand.ExecuteReader();
             while (dataReader.Read())
             {
-                Console.WriteLine("Id:{0}\tName:{1}", dataReader.GetValue(0), dataReader.GetValue(1));
+                Console.WriteLine("Id:{0}\tName:{1}, Spec:{2}", dataReader.GetValue(0), dataReader.GetValue(1), dataReader.GetValue(2));
             }
 
 
             connection.Close();
         }
 
-        public void test_query()
+        void best_choice()
         {
-
+            string queryString = @"select * from rk3.students s
+                    JOIN rk3.teachers t ON s.Spec = t.Spec
+                    where s.teacherId is NULL and t.People < ALL(
+                    select count(*) as amount from rk3.students
+                    group by teacherId
+                )";
             SqlConnection connection = new SqlConnection(connectionString);
+
+            SqlCommand dataQueryCommand = new SqlCommand(queryString, connection);
+
             connection.Open();
-                Console.WriteLine("Connection properties:");
-                Console.WriteLine("\tDatabase:          {0}", connection.Database);
-                Console.WriteLine("\tData Source:       {0}", connection.DataSource);
-                Console.WriteLine("\tServer version:    {0}", connection.ServerVersion);
-                Console.WriteLine("\tConnection state:  {0}\n", connection.State);
+            SqlDataReader dataReader = dataQueryCommand.ExecuteReader();
+            while (dataReader.Read())
+            {
+                Console.WriteLine("Id:{0}\tName:{1}, Spec:{2}", dataReader.GetValue(0), dataReader.GetValue(1), dataReader.GetValue(2));
+            }
+
+
             connection.Close();
         }
 
