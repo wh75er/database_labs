@@ -270,11 +270,10 @@ namespace demo_linq
         {
             XElement root = XElement.Load("common.xml");
 
-            foreach (XElement el in root.Elements().Elements("Price")) {
-                if (el.Value == "613")
-                {
-                    el.Value = "88005553555";
-                }
+            var q1 = root.Elements().Where(e => e.Element("Price").Value == "613");
+            foreach(var el in q1) {
+                Console.WriteLine(el);
+                el.Element("Price").Value = "99999999";
             }
 
             root.Add(new XElement("NEW",
