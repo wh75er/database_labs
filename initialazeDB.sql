@@ -49,9 +49,9 @@ VALUES
 ('Ryazanova', 1,  '7/5/2018'),
 ('Kurov', 2,  '8/3/2018'),
 ('Kurov', 2,  '8/4/2018'),
-('Kurov', 2,  '8/15/2018'),
+('Kurov', 3,  '8/15/2018'),
 ('Kurov', 3,  '8/16/2018'),
-('Kurov', 3,  '8/17/2018'),
+('Kurov', 2,  '8/18/2018'), -- collision on 17
 ('noname', 2,  '8/16/2018'),
 ('noname', 2,  '8/17/2018')
 SELECT * FROM Vacation
@@ -62,24 +62,28 @@ go
 
 WITH
   dates AS (
-    SELECT DISTINCT DateGAP, EmployeeName
+    SELECT DISTINCT TOP(100) DateGAP, EmployeeName, VacationId
     FROM EmployeeVacation
+    order by EmployeeName, VacationID
   ),
    
   groups AS (
     SELECT
       ROW_NUMBER() OVER (ORDER BY DateGAP) AS rn,
-      dateadd(day, -ROW_NUMBER() OVER (PARTITION BY EmployeeName ORDER BY DateGAP), DateGAP) AS grp,
+      dateadd(day, -ROW_NUMBER() OVER (PARTITION BY EmployeeName, VacationID ORDER BY DateGAP), DateGAP) AS grp,
       DateGAP,
-      EmployeeName
+      EmployeeName,
+      VacationID
     FROM dates d
   )
 
+--SELECT * FROM groups
 SELECT
   MIN(g.EmployeeName) AS [Name],
   COUNT(*) AS vacationLenght,
   MIN(g.DateGAP) AS minDate,
-  MAX(g.DateGAP) AS maxDate
+  MAX(g.DateGAP) AS maxDate,
+  MIN(VacationID) AS vacId
 FROM groups g
-GROUP BY grp
+GROUP BY grp, EmployeeName
 ORDER BY 1 DESC, 2 DESC
