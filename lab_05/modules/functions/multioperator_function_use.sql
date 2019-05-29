@@ -1,0 +1,1 @@
+SELECT * FROM GetPrice(2018)

@@ -1,0 +1,20 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ROOT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="row" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="CameraId"/>
+              <xs:element type="xs:string" name="Brand"/>
+              <xs:element type="xs:string" name="Model"/>
+              <xs:element type="xs:string" name="Mount"/>
+              <xs:element type="xs:byte" name="Megapixels"/>
+              <xs:element type="xs:string" name="Color"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,3 @@
+SELECT DISTINCT Price, [Year]
+FROM CameraBuild
+WHERE [Year] BETWEEN '2006-01-01' AND '2009-12-31'

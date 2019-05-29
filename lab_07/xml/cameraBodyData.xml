@@ -1,0 +1,8026 @@
+<ROOT>
+<row>
+  <CameraId>1</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>YELI</Model>
+  <Mount>Y1</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>2</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>zzz n</Model>
+  <Mount>F90</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>3</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>EOE K6600</Model>
+  <Mount>HHH1</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>4</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>tratu q</Model>
+  <Mount>GI19</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>5</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>zzz I4442</Model>
+  <Mount>W3</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>6</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI I066</Model>
+  <Mount>N557</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>7</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>tratu p</Model>
+  <Mount>EEP0</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>8</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Yami j</Model>
+  <Mount>JX48</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>9</CameraId>
+  <Brand>Minox</Brand>
+  <Model>zzz G</Model>
+  <Mount>Q72</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>10</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon Z</Model>
+  <Mount>LA40</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>11</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Carton</Model>
+  <Mount>E4</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>12</CameraId>
+  <Brand>Casio</Brand>
+  <Model>A12 w</Model>
+  <Mount>KY005</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>13</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa mQ1119</Model>
+  <Mount>LKR74</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>14</CameraId>
+  <Brand>Casio</Brand>
+  <Model>MI P</Model>
+  <Mount>ED7</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>15</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI iC00000</Model>
+  <Mount>OM43</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>16</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Carton R</Model>
+  <Mount>M1</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>17</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz u1</Model>
+  <Mount>KUP551</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>18</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Hansa fC9</Model>
+  <Mount>HDX93</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>19</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>YELI qF</Model>
+  <Mount>K99</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>20</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Carton q1</Model>
+  <Mount>Q447</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>21</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>A12 D</Model>
+  <Mount>JGX85</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>22</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>zzz t</Model>
+  <Mount>J7</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>23</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton H</Model>
+  <Mount>ZS003</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>24</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Kwanon</Model>
+  <Mount>A998</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>25</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>zzz lV1118</Model>
+  <Mount>L771</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>26</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12</Model>
+  <Mount>ZGJ4</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>27</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa</Model>
+  <Mount>H558</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>28</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami s</Model>
+  <Mount>FC996</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>29</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>tratu O</Model>
+  <Mount>V9</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>30</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Carton s6</Model>
+  <Mount>MO2</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>31</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz</Model>
+  <Mount>M1</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>32</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>EOE m</Model>
+  <Mount>LW117</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>33</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Beut G111</Model>
+  <Mount>GS111</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>34</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Yami f2</Model>
+  <Mount>B8</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>35</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Hansa O</Model>
+  <Mount>RF77</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>36</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>zzz M</Model>
+  <Mount>F770</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>37</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Hansa x</Model>
+  <Mount>BMN02</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>38</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE gU888</Model>
+  <Mount>N6</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>39</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>YELI r1</Model>
+  <Mount>QHQ0</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>40</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI P</Model>
+  <Mount>FQC2</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>41</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Hansa O</Model>
+  <Mount>R30</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>42</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>YELI</Model>
+  <Mount>V0</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>43</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Beut y8</Model>
+  <Mount>WIP1</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>44</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Kwanon X</Model>
+  <Mount>BWO004</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>45</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>zzz d5</Model>
+  <Mount>SCL88</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>46</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Beut W</Model>
+  <Mount>H4</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>47</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa</Model>
+  <Mount>P4</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>48</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz U</Model>
+  <Mount>HS886</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>49</CameraId>
+  <Brand>Medion</Brand>
+  <Model>EOE yA</Model>
+  <Mount>VNV06</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>50</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Hansa k</Model>
+  <Mount>CRV991</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>51</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Kwanon e0</Model>
+  <Mount>M5</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>52</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Beut t9</Model>
+  <Mount>AA449</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>53</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>EOE c</Model>
+  <Mount>IOW1</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>54</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Hansa W6655</Model>
+  <Mount>U48</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>55</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI p9</Model>
+  <Mount>Q5</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>56</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Yami r</Model>
+  <Mount>S222</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>57</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Carton</Model>
+  <Mount>JC07</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>58</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Carton W</Model>
+  <Mount>OI02</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>59</CameraId>
+  <Brand>Minox</Brand>
+  <Model>A12 i8R</Model>
+  <Mount>BMU16</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>60</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz Z</Model>
+  <Mount>QU227</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>61</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa m5O999</Model>
+  <Mount>W6</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>62</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 A</Model>
+  <Mount>O1</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>63</CameraId>
+  <Brand>Medion</Brand>
+  <Model>EOE f4</Model>
+  <Mount>Q222</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>64</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut y0N</Model>
+  <Mount>Z9</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>65</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Beut l</Model>
+  <Mount>FPF5</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>66</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>tratu</Model>
+  <Mount>QM99</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>67</CameraId>
+  <Brand>Casio</Brand>
+  <Model>tratu w3T44</Model>
+  <Mount>RIZ225</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>68</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon h</Model>
+  <Mount>F332</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>69</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>EOE yF</Model>
+  <Mount>SAC661</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>70</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa T555</Model>
+  <Mount>HCN8</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>71</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Yami c</Model>
+  <Mount>A9</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>72</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>EOE</Model>
+  <Mount>V6</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>73</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Carton L</Model>
+  <Mount>T2</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>74</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>EOE</Model>
+  <Mount>M1</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>75</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut c8</Model>
+  <Mount>K30</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>76</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>A12 b6Q</Model>
+  <Mount>J445</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>77</CameraId>
+  <Brand>Minox</Brand>
+  <Model>YELI p1P</Model>
+  <Mount>W03</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>78</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12 s0M7755</Model>
+  <Mount>JZ04</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>79</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>A12 X</Model>
+  <Mount>VG1</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>80</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>MI</Model>
+  <Mount>E4</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>81</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Beut i</Model>
+  <Mount>BXQ8</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>82</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>EOE F555</Model>
+  <Mount>V28</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>83</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Beut G</Model>
+  <Mount>U3</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>84</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut u</Model>
+  <Mount>TQ28</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>85</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>MI c</Model>
+  <Mount>FU114</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>86</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami B</Model>
+  <Mount>I64</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>87</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>EOE</Model>
+  <Mount>WNP2</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>88</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Carton M88</Model>
+  <Mount>FAO991</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>89</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>MI dQ6</Model>
+  <Mount>QS229</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>90</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Carton d7</Model>
+  <Mount>G1</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>91</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 S</Model>
+  <Mount>KO4</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>92</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>YELI S</Model>
+  <Mount>O4</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>93</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>YELI nF</Model>
+  <Mount>EQA9</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>94</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Yami</Model>
+  <Mount>FRQ1</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>95</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>tratu</Model>
+  <Mount>LN226</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>96</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Carton</Model>
+  <Mount>SSH777</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>97</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Carton xM</Model>
+  <Mount>Y5</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>98</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami y7</Model>
+  <Mount>DRH3</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>99</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Kwanon L8881</Model>
+  <Mount>NH65</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>100</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Carton j</Model>
+  <Mount>P995</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>101</CameraId>
+  <Brand>Sony</Brand>
+  <Model>tratu w6L32</Model>
+  <Mount>Y60</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>102</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami b2</Model>
+  <Mount>F0</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>103</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Kwanon M</Model>
+  <Mount>ZG336</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>104</CameraId>
+  <Brand>Sony</Brand>
+  <Model>MI</Model>
+  <Mount>UW0</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>105</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon zT</Model>
+  <Mount>QBQ23</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>106</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI</Model>
+  <Mount>S84</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>107</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>MI</Model>
+  <Mount>DNB776</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>108</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>YELI g9W</Model>
+  <Mount>QZI4</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>109</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>A12 n7N</Model>
+  <Mount>Y8</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>110</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Beut C611</Model>
+  <Mount>A4</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>111</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami dP22</Model>
+  <Mount>J7</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>112</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>A12</Model>
+  <Mount>ZX886</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>113</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon I</Model>
+  <Mount>JKI665</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>114</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Beut K</Model>
+  <Mount>JR49</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>115</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Kwanon X9994</Model>
+  <Mount>FEK04</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>116</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon l1</Model>
+  <Mount>D227</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>117</CameraId>
+  <Brand>Medion</Brand>
+  <Model>tratu</Model>
+  <Mount>FL15</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>118</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>YELI E</Model>
+  <Mount>QX9</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>119</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Kwanon q7I</Model>
+  <Mount>WH222</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>120</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE L</Model>
+  <Mount>SOB774</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>121</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>A12 x4T7778</Model>
+  <Mount>M71</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>122</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut yD11</Model>
+  <Mount>XN5</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>123</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton l</Model>
+  <Mount>A222</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>124</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Hansa K6</Model>
+  <Mount>OK110</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>125</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami h</Model>
+  <Mount>F4</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>126</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI wJ</Model>
+  <Mount>LAH7</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>127</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Hansa</Model>
+  <Mount>PF337</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>128</CameraId>
+  <Brand>Casio</Brand>
+  <Model>EOE b4B999</Model>
+  <Mount>TLH60</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>129</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa h8</Model>
+  <Mount>ZUY22</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>130</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>MI lD</Model>
+  <Mount>LAD4</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>131</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami d9N226</Model>
+  <Mount>OF9</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>132</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Yami</Model>
+  <Mount>ON74</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>133</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI</Model>
+  <Mount>WAL6</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>134</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Carton G9</Model>
+  <Mount>J009</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>135</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>EOE mS66</Model>
+  <Mount>LGE34</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>136</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa</Model>
+  <Mount>FY2</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>137</CameraId>
+  <Brand>Epson</Brand>
+  <Model>YELI</Model>
+  <Mount>UHE555</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>138</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami</Model>
+  <Mount>WQ4</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>139</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Beut M6</Model>
+  <Mount>MX9</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>140</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI</Model>
+  <Mount>S4</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>141</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>zzz</Model>
+  <Mount>Q223</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>142</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Kwanon K</Model>
+  <Mount>M65</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>143</CameraId>
+  <Brand>Medion</Brand>
+  <Model>EOE</Model>
+  <Mount>AM20</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>144</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Carton T</Model>
+  <Mount>P669</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>145</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami u</Model>
+  <Mount>HS85</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>146</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Hansa C111</Model>
+  <Mount>JIX75</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>147</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon</Model>
+  <Mount>LY00</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>148</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>zzz l4</Model>
+  <Mount>N67</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>149</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Carton v7</Model>
+  <Mount>T4</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>150</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton l2</Model>
+  <Mount>G3</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>151</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon F</Model>
+  <Mount>D4</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>152</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Yami R99</Model>
+  <Mount>NLW6</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>153</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 j</Model>
+  <Mount>G6</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>154</CameraId>
+  <Brand>Casio</Brand>
+  <Model>zzz U2229</Model>
+  <Mount>SQP339</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>155</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>zzz l3Y</Model>
+  <Mount>F772</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>156</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 c0</Model>
+  <Mount>G007</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>157</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 qZ0</Model>
+  <Mount>GQ2</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>158</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>tratu p4N23</Model>
+  <Mount>JUQ7</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>159</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Hansa R</Model>
+  <Mount>HD19</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>160</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton G</Model>
+  <Mount>X36</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>161</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Beut j1X</Model>
+  <Mount>I9</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>162</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 f5</Model>
+  <Mount>UM224</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>163</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>tratu eF</Model>
+  <Mount>YR56</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>164</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>zzz oT779</Model>
+  <Mount>W51</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>165</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Beut f</Model>
+  <Mount>B666</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>166</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12</Model>
+  <Mount>I773</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>167</CameraId>
+  <Brand>Sony</Brand>
+  <Model>YELI xB5</Model>
+  <Mount>BH70</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>168</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Kwanon</Model>
+  <Mount>TZI98</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>169</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Carton V</Model>
+  <Mount>I77</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>170</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Carton Q</Model>
+  <Mount>W68</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>171</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>tratu uJ644</Model>
+  <Mount>F00</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>172</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Hansa l8S</Model>
+  <Mount>PCZ86</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>173</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>EOE g</Model>
+  <Mount>BTJ55</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>174</CameraId>
+  <Brand>Sony</Brand>
+  <Model>zzz V5599</Model>
+  <Mount>YKB5</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>175</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>tratu s3</Model>
+  <Mount>QRK226</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>176</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>MI aO</Model>
+  <Mount>OT5</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>177</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon fY7722</Model>
+  <Mount>Y99</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>178</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Yami T</Model>
+  <Mount>D4</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>179</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>zzz Z</Model>
+  <Mount>NC9</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>180</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Yami</Model>
+  <Mount>B4</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>181</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Kwanon Z55500</Model>
+  <Mount>O337</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>182</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Hansa a6</Model>
+  <Mount>HJK113</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>183</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz a8</Model>
+  <Mount>CS9</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>184</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut</Model>
+  <Mount>TW87</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>185</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>zzz</Model>
+  <Mount>UI90</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>186</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Kwanon Q</Model>
+  <Mount>Z778</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>187</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton cW5</Model>
+  <Mount>U30</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>188</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>MI f</Model>
+  <Mount>EI6</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>189</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Carton</Model>
+  <Mount>XK21</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>190</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa</Model>
+  <Mount>V2</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>191</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12 P</Model>
+  <Mount>L89</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>192</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Carton E2224</Model>
+  <Mount>IB990</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>193</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>A12 j7</Model>
+  <Mount>TO661</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>194</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>YELI p</Model>
+  <Mount>L005</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>195</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12 d2</Model>
+  <Mount>SLK2</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>196</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton l5M22</Model>
+  <Mount>A8</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>197</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa</Model>
+  <Mount>OWW3</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>198</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz uF77722</Model>
+  <Mount>F779</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>199</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Beut</Model>
+  <Mount>YLD5</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>200</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>tratu</Model>
+  <Mount>UYJ662</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>201</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>YELI</Model>
+  <Mount>O5</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>202</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>zzz l4K11</Model>
+  <Mount>DUV444</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>203</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Carton X</Model>
+  <Mount>AW991</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>204</CameraId>
+  <Brand>Sony</Brand>
+  <Model>A12 mF</Model>
+  <Mount>ALF51</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>205</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz</Model>
+  <Mount>V42</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>206</CameraId>
+  <Brand>Minox</Brand>
+  <Model>zzz o0B477</Model>
+  <Mount>YB47</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>207</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami</Model>
+  <Mount>LB557</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>208</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Yami l</Model>
+  <Mount>E1</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>209</CameraId>
+  <Brand>Casio</Brand>
+  <Model>zzz lA</Model>
+  <Mount>K53</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>210</CameraId>
+  <Brand>Minox</Brand>
+  <Model>EOE</Model>
+  <Mount>V8</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>211</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut r1G</Model>
+  <Mount>GWH45</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>212</CameraId>
+  <Brand>Sony</Brand>
+  <Model>MI i4S26</Model>
+  <Mount>F116</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>213</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton</Model>
+  <Mount>Y111</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>214</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Beut</Model>
+  <Mount>B2</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>215</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>tratu y2</Model>
+  <Mount>QEG334</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>216</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Kwanon</Model>
+  <Mount>NMR8</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>217</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>YELI fW</Model>
+  <Mount>U44</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>218</CameraId>
+  <Brand>Epson</Brand>
+  <Model>YELI B00</Model>
+  <Mount>G5</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>219</CameraId>
+  <Brand>Epson</Brand>
+  <Model>YELI</Model>
+  <Mount>RH5</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>220</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>tratu o1</Model>
+  <Mount>N09</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>221</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon b6B</Model>
+  <Mount>C49</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>222</CameraId>
+  <Brand>Canon</Brand>
+  <Model>YELI X</Model>
+  <Mount>Y004</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>223</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Hansa x8D</Model>
+  <Mount>TVC558</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>224</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>YELI t0</Model>
+  <Mount>JW89</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>225</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>YELI H</Model>
+  <Mount>V559</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>226</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton k5F66</Model>
+  <Mount>KKM000</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>227</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Kwanon wQ</Model>
+  <Mount>Z42</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>228</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami p9Z6</Model>
+  <Mount>NYL448</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>229</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Kwanon lA3334</Model>
+  <Mount>Q4</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>230</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Carton q0U</Model>
+  <Mount>Q113</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>231</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Yami Y77</Model>
+  <Mount>N07</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>232</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>YELI u</Model>
+  <Mount>KQ227</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>233</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>A12 k8M</Model>
+  <Mount>MYN53</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>234</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami b</Model>
+  <Mount>R4</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>235</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI P0004</Model>
+  <Mount>Q68</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>236</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon</Model>
+  <Mount>U54</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>237</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz C</Model>
+  <Mount>MZ3</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>238</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami q2C100</Model>
+  <Mount>E9</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>239</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>YELI k</Model>
+  <Mount>OIK889</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>240</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>YELI</Model>
+  <Mount>ASL0</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>241</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon a1Y277</Model>
+  <Mount>JVQ8</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>242</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Yami</Model>
+  <Mount>TMX776</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>243</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>tratu xW</Model>
+  <Mount>JUQ1</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>244</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon a</Model>
+  <Mount>TWR0</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>245</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>zzz k4Y</Model>
+  <Mount>KD57</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>246</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>EOE u1B9</Model>
+  <Mount>PM773</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>247</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>MI pV</Model>
+  <Mount>PZ337</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>248</CameraId>
+  <Brand>Minox</Brand>
+  <Model>A12 A</Model>
+  <Mount>LAM667</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>249</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>tratu k3</Model>
+  <Mount>AID87</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>250</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon x6</Model>
+  <Mount>S118</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>251</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton n2K</Model>
+  <Mount>E0</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>252</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton B455</Model>
+  <Mount>EN998</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>253</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Kwanon</Model>
+  <Mount>P0</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>254</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>YELI x</Model>
+  <Mount>T116</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>255</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz y2</Model>
+  <Mount>ZSC15</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>256</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Carton pI43</Model>
+  <Mount>NGI881</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>257</CameraId>
+  <Brand>Casio</Brand>
+  <Model>YELI w</Model>
+  <Mount>Y07</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>258</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Beut mX</Model>
+  <Mount>TDA553</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>259</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>YELI V</Model>
+  <Mount>RQY998</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>260</CameraId>
+  <Brand>Sony</Brand>
+  <Model>tratu U227</Model>
+  <Mount>U68</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>261</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Carton</Model>
+  <Mount>WB8</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>262</CameraId>
+  <Brand>Sony</Brand>
+  <Model>MI n8U77</Model>
+  <Mount>U111</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>263</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Kwanon</Model>
+  <Mount>BP222</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>264</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Kwanon</Model>
+  <Mount>FG22</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>265</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Beut l</Model>
+  <Mount>F6</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>266</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>A12 I54</Model>
+  <Mount>G78</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>267</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu</Model>
+  <Mount>W2</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>268</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>MI K6666</Model>
+  <Mount>JKT44</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>269</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Hansa A6622</Model>
+  <Mount>P779</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>270</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Hansa oF</Model>
+  <Mount>MUK04</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>271</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon u2I</Model>
+  <Mount>UDI11</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>272</CameraId>
+  <Brand>Minox</Brand>
+  <Model>A12</Model>
+  <Mount>C228</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>273</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Hansa n7S499</Model>
+  <Mount>MDV777</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>274</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>MI r1</Model>
+  <Mount>Z2</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>275</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami</Model>
+  <Mount>KM2</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>276</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>EOE W</Model>
+  <Mount>MJW887</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>277</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Hansa vZ3</Model>
+  <Mount>JSQ3</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>278</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Yami A227</Model>
+  <Mount>TVK6</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>279</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>YELI</Model>
+  <Mount>P667</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>280</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami a1E099</Model>
+  <Mount>I8</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>281</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>zzz</Model>
+  <Mount>D1</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>282</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu W6</Model>
+  <Mount>J8</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>283</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Hansa r8</Model>
+  <Mount>DNY91</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>284</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Carton</Model>
+  <Mount>I666</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>285</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>YELI</Model>
+  <Mount>DL997</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>286</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton D</Model>
+  <Mount>H1</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>287</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>zzz</Model>
+  <Mount>WNK0</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>288</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI j</Model>
+  <Mount>Z42</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>289</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>zzz t6</Model>
+  <Mount>J9</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>290</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Kwanon R1</Model>
+  <Mount>O118</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>291</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton b3T</Model>
+  <Mount>S002</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>292</CameraId>
+  <Brand>Sony</Brand>
+  <Model>tratu M</Model>
+  <Mount>Q74</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>293</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 E</Model>
+  <Mount>LQ85</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>294</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>YELI Y4444</Model>
+  <Mount>I991</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>295</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Beut</Model>
+  <Mount>IYM775</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>296</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut</Model>
+  <Mount>U7</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>297</CameraId>
+  <Brand>Epson</Brand>
+  <Model>MI c</Model>
+  <Mount>Y63</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>298</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Beut</Model>
+  <Mount>UUW63</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>299</CameraId>
+  <Brand>Medion</Brand>
+  <Model>A12 p6P</Model>
+  <Mount>FJL33</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>300</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz Q7</Model>
+  <Mount>LS09</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>301</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu</Model>
+  <Mount>SMY8</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>302</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon v9L</Model>
+  <Mount>L1</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>303</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>zzz pJ</Model>
+  <Mount>G667</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>304</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>YELI R</Model>
+  <Mount>I6</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>305</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Yami dB0</Model>
+  <Mount>PBF990</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>306</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Kwanon V</Model>
+  <Mount>FU5</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>307</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa V1144</Model>
+  <Mount>Z15</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>308</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Hansa</Model>
+  <Mount>ZR2</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>309</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Yami i2</Model>
+  <Mount>BT60</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>310</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>A12 Z</Model>
+  <Mount>Q555</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>311</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Beut A</Model>
+  <Mount>W449</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>312</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon m9</Model>
+  <Mount>NI996</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>313</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Hansa rP</Model>
+  <Mount>N13</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>314</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 t5I99911</Model>
+  <Mount>G886</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>315</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>zzz i8V</Model>
+  <Mount>B44</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>316</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>tratu y8A4422</Model>
+  <Mount>G334</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>317</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Carton</Model>
+  <Mount>M22</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>318</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>A12 V55555</Model>
+  <Mount>T558</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>319</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Beut U</Model>
+  <Mount>IQN1</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>320</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>zzz</Model>
+  <Mount>TR995</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>321</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz p</Model>
+  <Mount>QKL229</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>322</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Hansa dT</Model>
+  <Mount>GDV559</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>323</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami Z333</Model>
+  <Mount>QWC997</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>324</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE i7O233</Model>
+  <Mount>V331</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>325</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut</Model>
+  <Mount>BD2</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>326</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu C00</Model>
+  <Mount>WA82</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>327</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon X</Model>
+  <Mount>ASY2</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>328</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>zzz Z</Model>
+  <Mount>DIV661</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>329</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Beut d3</Model>
+  <Mount>XU4</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>330</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton D444</Model>
+  <Mount>J3</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>331</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Hansa C</Model>
+  <Mount>WT5</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>332</CameraId>
+  <Brand>Sony</Brand>
+  <Model>A12 kF</Model>
+  <Mount>AID13</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>333</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Kwanon X662</Model>
+  <Mount>RLQ0</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>334</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa</Model>
+  <Mount>WS88</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>335</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>MI L</Model>
+  <Mount>E6</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>336</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12 jI</Model>
+  <Mount>HB56</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>337</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Kwanon pW</Model>
+  <Mount>OPO3</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>338</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Carton U0</Model>
+  <Mount>F01</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>339</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Hansa rH</Model>
+  <Mount>O8</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>340</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI k8</Model>
+  <Mount>EBW9</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>341</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>tratu u3</Model>
+  <Mount>JJH8</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>342</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>EOE K0002</Model>
+  <Mount>L4</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>343</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>MI V</Model>
+  <Mount>S117</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>344</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon d</Model>
+  <Mount>SZ8</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>345</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon t</Model>
+  <Mount>GZY4</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>346</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Beut i</Model>
+  <Mount>KKM0</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>347</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>tratu uY833</Model>
+  <Mount>P777</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>348</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>tratu n1</Model>
+  <Mount>WGP9</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>349</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>YELI b0L</Model>
+  <Mount>JX005</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>350</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>tratu Y11</Model>
+  <Mount>LGM777</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>351</CameraId>
+  <Brand>Minox</Brand>
+  <Model>zzz c</Model>
+  <Mount>V0</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>352</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Kwanon wL6611</Model>
+  <Mount>ODP2</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>353</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Beut D733</Model>
+  <Mount>JDS339</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>354</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Kwanon J99</Model>
+  <Mount>HPC0</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>355</CameraId>
+  <Brand>Casio</Brand>
+  <Model>MI</Model>
+  <Mount>S4</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>356</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton o</Model>
+  <Mount>N26</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>357</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Carton m6</Model>
+  <Mount>M36</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>358</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>zzz</Model>
+  <Mount>SCT8</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>359</CameraId>
+  <Brand>Casio</Brand>
+  <Model>MI</Model>
+  <Mount>V0</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>360</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz n7C44</Model>
+  <Mount>M62</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>361</CameraId>
+  <Brand>Epson</Brand>
+  <Model>tratu lV7</Model>
+  <Mount>FU8</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>362</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>MI</Model>
+  <Mount>WTL880</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>363</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>EOE</Model>
+  <Mount>B662</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>364</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Carton</Model>
+  <Mount>I05</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>365</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE bV</Model>
+  <Mount>I6</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>366</CameraId>
+  <Brand>Sony</Brand>
+  <Model>EOE H</Model>
+  <Mount>I113</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>367</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>A12 o</Model>
+  <Mount>Q4</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>368</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>A12</Model>
+  <Mount>E3</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>369</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 k9</Model>
+  <Mount>IT337</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>370</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>tratu V55</Model>
+  <Mount>O51</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>371</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Beut L2</Model>
+  <Mount>G55</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>372</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton</Model>
+  <Mount>E6</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>373</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Kwanon cB88</Model>
+  <Mount>JE999</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>374</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE u</Model>
+  <Mount>T7</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>375</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>A12 j9Y</Model>
+  <Mount>M7</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>376</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon rS400</Model>
+  <Mount>JKJ4</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>377</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Carton O4477</Model>
+  <Mount>J70</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>378</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE n5</Model>
+  <Mount>COR1</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>379</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Carton O5557</Model>
+  <Mount>Y1</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>380</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 q1T</Model>
+  <Mount>OO76</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>381</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Yami fE</Model>
+  <Mount>IN10</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>382</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Hansa aH</Model>
+  <Mount>HX44</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>383</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI a</Model>
+  <Mount>YPI993</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>384</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI v7F</Model>
+  <Mount>JP64</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>385</CameraId>
+  <Brand>Medion</Brand>
+  <Model>EOE V</Model>
+  <Mount>O25</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>386</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12 nK33</Model>
+  <Mount>O17</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>387</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Yami vJ</Model>
+  <Mount>E83</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>388</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Yami dW</Model>
+  <Mount>P993</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>389</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>MI a</Model>
+  <Mount>ZOY1</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>390</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon hL88877</Model>
+  <Mount>G14</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>391</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Hansa</Model>
+  <Mount>WSG2</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>392</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>tratu c</Model>
+  <Mount>O81</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>393</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Hansa</Model>
+  <Mount>UF48</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>394</CameraId>
+  <Brand>Epson</Brand>
+  <Model>YELI f4</Model>
+  <Mount>PM82</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>395</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Yami</Model>
+  <Mount>EE42</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>396</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa D4</Model>
+  <Mount>D004</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>397</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>MI</Model>
+  <Mount>CYU80</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>398</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon</Model>
+  <Mount>F33</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>399</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>EOE kF</Model>
+  <Mount>D9</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>400</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz P</Model>
+  <Mount>T116</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>401</CameraId>
+  <Brand>Minox</Brand>
+  <Model>zzz</Model>
+  <Mount>R006</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>402</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>A12 z5M555</Model>
+  <Mount>AVT008</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>403</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>zzz c</Model>
+  <Mount>G118</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>404</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>tratu</Model>
+  <Mount>I330</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>405</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon</Model>
+  <Mount>N82</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>406</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>zzz C</Model>
+  <Mount>H86</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>407</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Beut h7L55588</Model>
+  <Mount>B7</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>408</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Kwanon n9W</Model>
+  <Mount>T7</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>409</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon</Model>
+  <Mount>EIJ001</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>410</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 p</Model>
+  <Mount>UKC57</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>411</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>tratu gP</Model>
+  <Mount>E42</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>412</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Hansa fC</Model>
+  <Mount>B777</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>413</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Kwanon</Model>
+  <Mount>L15</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>414</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon</Model>
+  <Mount>A887</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>415</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Kwanon</Model>
+  <Mount>KWZ3</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>416</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>YELI Q2299</Model>
+  <Mount>NBH94</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>417</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami</Model>
+  <Mount>KSX0</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>418</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu</Model>
+  <Mount>Z5</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>419</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut</Model>
+  <Mount>CO17</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>420</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>MI f7</Model>
+  <Mount>SQV0</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>421</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>zzz O</Model>
+  <Mount>YXL8</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>422</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>MI n</Model>
+  <Mount>E1</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>423</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI W</Model>
+  <Mount>NGO777</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>424</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon</Model>
+  <Mount>LR16</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>425</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE P77</Model>
+  <Mount>M223</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>426</CameraId>
+  <Brand>Sony</Brand>
+  <Model>zzz Z</Model>
+  <Mount>ZWB5</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>427</CameraId>
+  <Brand>Casio</Brand>
+  <Model>EOE</Model>
+  <Mount>D5</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>428</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>zzz M33</Model>
+  <Mount>Q1</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>429</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI O33388</Model>
+  <Mount>H08</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>430</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami Q</Model>
+  <Mount>EFF778</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>431</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI z</Model>
+  <Mount>MO6</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>432</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Carton</Model>
+  <Mount>U8</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>433</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Carton n6</Model>
+  <Mount>OM92</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>434</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon h</Model>
+  <Mount>H46</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>435</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>EOE</Model>
+  <Mount>R2</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>436</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami d5</Model>
+  <Mount>DHT335</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>437</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>EOE s</Model>
+  <Mount>IHO79</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>438</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>YELI</Model>
+  <Mount>W94</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>439</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>YELI aV</Model>
+  <Mount>XQB333</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>440</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Beut I332</Model>
+  <Mount>T1</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>441</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Carton</Model>
+  <Mount>C554</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>442</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>zzz lG</Model>
+  <Mount>I2</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>443</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon V</Model>
+  <Mount>V25</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>444</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE G</Model>
+  <Mount>Y5</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>445</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>A12 l7</Model>
+  <Mount>RX115</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>446</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon yQ6669</Model>
+  <Mount>C336</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>447</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>YELI</Model>
+  <Mount>XHX70</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>448</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Kwanon</Model>
+  <Mount>PD5</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>449</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon L</Model>
+  <Mount>N8</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>450</CameraId>
+  <Brand>Casio</Brand>
+  <Model>zzz S</Model>
+  <Mount>L6</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>451</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>EOE b4</Model>
+  <Mount>W559</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>452</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa L</Model>
+  <Mount>B07</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>453</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 G66</Model>
+  <Mount>A2</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>454</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12 Y</Model>
+  <Mount>YU35</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>455</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz k4</Model>
+  <Mount>R777</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>456</CameraId>
+  <Brand>Casio</Brand>
+  <Model>zzz Y</Model>
+  <Mount>M64</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>457</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>EOE r</Model>
+  <Mount>A27</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>458</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>zzz D0099</Model>
+  <Mount>W31</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>459</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>tratu D</Model>
+  <Mount>JL449</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>460</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Carton E</Model>
+  <Mount>PN20</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>461</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>A12 D400</Model>
+  <Mount>RD86</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>462</CameraId>
+  <Brand>Epson</Brand>
+  <Model>MI m5</Model>
+  <Mount>FW55</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>463</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon jF883</Model>
+  <Mount>X7</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>464</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>A12 q</Model>
+  <Mount>N226</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>465</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Carton N</Model>
+  <Mount>UK61</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>466</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE aD</Model>
+  <Mount>N223</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>467</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Carton j9</Model>
+  <Mount>RJ6</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>468</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 t7C</Model>
+  <Mount>DZF8</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>469</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>MI T3355</Model>
+  <Mount>CN0</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>470</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Kwanon H</Model>
+  <Mount>ZH94</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>471</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Hansa t</Model>
+  <Mount>AK002</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>472</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>EOE O331</Model>
+  <Mount>T6</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>473</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami M99</Model>
+  <Mount>RT223</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>474</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Beut t0</Model>
+  <Mount>SM57</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>475</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>tratu O</Model>
+  <Mount>FL41</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>476</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami o</Model>
+  <Mount>IU1</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>477</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>zzz i</Model>
+  <Mount>XV1</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>478</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz e5O8888</Model>
+  <Mount>V20</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>479</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>tratu</Model>
+  <Mount>PSN7</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>480</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>EOE</Model>
+  <Mount>B1</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>481</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Carton</Model>
+  <Mount>HK338</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>482</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa W</Model>
+  <Mount>J7</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>483</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12 l9M</Model>
+  <Mount>N2</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>484</CameraId>
+  <Brand>Casio</Brand>
+  <Model>A12 S</Model>
+  <Mount>Q85</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>485</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>zzz</Model>
+  <Mount>PWF550</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>486</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon Q00088</Model>
+  <Mount>IE9</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>487</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI S</Model>
+  <Mount>BUR114</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>488</CameraId>
+  <Brand>Epson</Brand>
+  <Model>MI</Model>
+  <Mount>R56</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>489</CameraId>
+  <Brand>Sony</Brand>
+  <Model>A12</Model>
+  <Mount>D92</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>490</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami t7</Model>
+  <Mount>VUS551</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>491</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>EOE O</Model>
+  <Mount>HWC00</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>492</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon V</Model>
+  <Mount>F7</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>493</CameraId>
+  <Brand>Minox</Brand>
+  <Model>zzz u</Model>
+  <Mount>TH668</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>494</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Carton</Model>
+  <Mount>G225</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>495</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon L4449</Model>
+  <Mount>TT84</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>496</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12</Model>
+  <Mount>CL006</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>497</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu B6633</Model>
+  <Mount>IH02</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>498</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami xB</Model>
+  <Mount>S67</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>499</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa D</Model>
+  <Mount>HIR666</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>500</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>YELI a5G733</Model>
+  <Mount>SVL69</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>501</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>A12</Model>
+  <Mount>WF1</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>502</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Kwanon I3337</Model>
+  <Mount>KC75</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>503</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Beut m</Model>
+  <Mount>S08</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>504</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Carton d</Model>
+  <Mount>U59</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>505</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>MI g9W</Model>
+  <Mount>MZF444</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>506</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>MI</Model>
+  <Mount>NA20</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>507</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>tratu pT</Model>
+  <Mount>FG75</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>508</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12</Model>
+  <Mount>EW994</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>509</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>MI</Model>
+  <Mount>GNM229</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>510</CameraId>
+  <Brand>Canon</Brand>
+  <Model>YELI z</Model>
+  <Mount>H5</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>511</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>tratu qM</Model>
+  <Mount>DFI08</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>512</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Carton p0</Model>
+  <Mount>R8</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>513</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Hansa</Model>
+  <Mount>ZD90</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>514</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa</Model>
+  <Mount>HMY0</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>515</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Beut a</Model>
+  <Mount>G444</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>516</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Kwanon v7</Model>
+  <Mount>Z005</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>517</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Kwanon w7U</Model>
+  <Mount>MM4</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>518</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut A</Model>
+  <Mount>Y4</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>519</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Carton xI</Model>
+  <Mount>LZJ31</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>520</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon J5</Model>
+  <Mount>Z7</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>521</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Beut T</Model>
+  <Mount>C69</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>522</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12 K</Model>
+  <Mount>O0</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>523</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>A12 e</Model>
+  <Mount>PU7</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>524</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa p9</Model>
+  <Mount>F19</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>525</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>YELI vF</Model>
+  <Mount>P6</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>526</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Yami tF</Model>
+  <Mount>T880</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>527</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Yami</Model>
+  <Mount>QKH57</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>528</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>YELI R7</Model>
+  <Mount>L0</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>529</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Hansa Y7777</Model>
+  <Mount>PF6</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>530</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>A12 r</Model>
+  <Mount>X28</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>531</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Kwanon A</Model>
+  <Mount>R2</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>532</CameraId>
+  <Brand>Casio</Brand>
+  <Model>tratu r6N</Model>
+  <Mount>O559</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>533</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Carton H</Model>
+  <Mount>JQD5</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>534</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Kwanon y0E</Model>
+  <Mount>DLL333</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>535</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Hansa C</Model>
+  <Mount>RAT997</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>536</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 Z3</Model>
+  <Mount>RU339</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>537</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Yami Z6</Model>
+  <Mount>I12</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>538</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Yami</Model>
+  <Mount>A6</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>539</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut e6R88</Model>
+  <Mount>EP67</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>540</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Beut mN966</Model>
+  <Mount>NSX17</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>541</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Beut</Model>
+  <Mount>C07</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>542</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12 hJ</Model>
+  <Mount>EU9</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>543</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>tratu Y</Model>
+  <Mount>UP7</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>544</CameraId>
+  <Brand>Casio</Brand>
+  <Model>YELI mJ73</Model>
+  <Mount>O7</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>545</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>MI j2S4447</Model>
+  <Mount>A64</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>546</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Beut</Model>
+  <Mount>DH1</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>547</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Beut</Model>
+  <Mount>L98</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>548</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>EOE S</Model>
+  <Mount>D97</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>549</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>tratu</Model>
+  <Mount>TNV14</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>550</CameraId>
+  <Brand>Minox</Brand>
+  <Model>YELI aG8</Model>
+  <Mount>RZS1</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>551</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>A12</Model>
+  <Mount>J7</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>552</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Hansa</Model>
+  <Mount>U9</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>553</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>A12</Model>
+  <Mount>QK95</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>554</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>MI qA94</Model>
+  <Mount>JCU774</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>555</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12 k0C</Model>
+  <Mount>X60</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>556</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>MI s</Model>
+  <Mount>U115</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>557</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Beut</Model>
+  <Mount>PG1</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>558</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Carton y9</Model>
+  <Mount>FGH79</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>559</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>YELI</Model>
+  <Mount>HYG774</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>560</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>EOE lM50</Model>
+  <Mount>Z8</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>561</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>A12 C88822</Model>
+  <Mount>TXM557</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>562</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Yami h</Model>
+  <Mount>WNH22</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>563</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami xP</Model>
+  <Mount>M1</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>564</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI u</Model>
+  <Mount>A1</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>565</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Yami x8</Model>
+  <Mount>I1</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>566</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Kwanon</Model>
+  <Mount>PD776</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>567</CameraId>
+  <Brand>Casio</Brand>
+  <Model>YELI s9</Model>
+  <Mount>FO76</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>568</CameraId>
+  <Brand>Casio</Brand>
+  <Model>zzz K</Model>
+  <Mount>L3</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>569</CameraId>
+  <Brand>Sony</Brand>
+  <Model>EOE xV11133</Model>
+  <Mount>TK53</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>570</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>EOE</Model>
+  <Mount>M778</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>571</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>zzz I4</Model>
+  <Mount>H95</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>572</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI W766</Model>
+  <Mount>XM1</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>573</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI</Model>
+  <Mount>ERV9</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>574</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI i1E</Model>
+  <Mount>P009</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>575</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami</Model>
+  <Mount>AK113</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>576</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Beut rQ</Model>
+  <Mount>NQ57</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>577</CameraId>
+  <Brand>Sony</Brand>
+  <Model>EOE k</Model>
+  <Mount>IIU49</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>578</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa cP7776</Model>
+  <Mount>BM1</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>579</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Kwanon gY888</Model>
+  <Mount>TN06</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>580</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Carton q8I</Model>
+  <Mount>XJ0</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>581</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE U7</Model>
+  <Mount>C28</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>582</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>YELI Z9944</Model>
+  <Mount>T3</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>583</CameraId>
+  <Brand>Sony</Brand>
+  <Model>MI</Model>
+  <Mount>ZFD444</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>584</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 y8N4</Model>
+  <Mount>L8</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>585</CameraId>
+  <Brand>Epson</Brand>
+  <Model>tratu O</Model>
+  <Mount>LLV661</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>586</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu Z77</Model>
+  <Mount>W555</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>587</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Beut</Model>
+  <Mount>X331</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>588</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Beut p</Model>
+  <Mount>W06</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>589</CameraId>
+  <Brand>Canon</Brand>
+  <Model>YELI e5</Model>
+  <Mount>JSD02</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>590</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12 i7K44466</Model>
+  <Mount>MES04</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>591</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>tratu r1S</Model>
+  <Mount>AK9</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>592</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz A6665</Model>
+  <Mount>IY8</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>593</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Carton nF553</Model>
+  <Mount>QOI1</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>594</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI</Model>
+  <Mount>D2</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>595</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa i3</Model>
+  <Mount>L338</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>596</CameraId>
+  <Brand>Medion</Brand>
+  <Model>MI h</Model>
+  <Mount>SV4</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>597</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Beut y5</Model>
+  <Mount>AZ3</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>598</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>EOE o4A</Model>
+  <Mount>CN58</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>599</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Beut y5</Model>
+  <Mount>UUL0</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>600</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI J</Model>
+  <Mount>J887</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>601</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 R77</Model>
+  <Mount>X18</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>602</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>tratu oH</Model>
+  <Mount>ZL554</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>603</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Hansa R</Model>
+  <Mount>YDT90</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>604</CameraId>
+  <Brand>Medion</Brand>
+  <Model>MI b</Model>
+  <Mount>O50</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>605</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Hansa</Model>
+  <Mount>V69</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>606</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>tratu A</Model>
+  <Mount>U880</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>607</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>A12</Model>
+  <Mount>CP3</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>608</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Kwanon s1V9955</Model>
+  <Mount>JM7</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>609</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>YELI D</Model>
+  <Mount>PNG9</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>610</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Beut g4</Model>
+  <Mount>I4</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>611</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut v</Model>
+  <Mount>G43</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>612</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Yami</Model>
+  <Mount>FN552</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>613</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>zzz</Model>
+  <Mount>DO2</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>614</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>tratu T4</Model>
+  <Mount>BRT993</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>615</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>tratu</Model>
+  <Mount>V1</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>616</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Kwanon t4V18</Model>
+  <Mount>P4</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>617</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>A12 bH223</Model>
+  <Mount>M7</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>618</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>YELI y</Model>
+  <Mount>GP776</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>619</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa</Model>
+  <Mount>I002</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>620</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>MI p</Model>
+  <Mount>AM5</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>621</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Beut jT77777</Model>
+  <Mount>D3</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>622</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI D</Model>
+  <Mount>L4</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>623</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami g7R</Model>
+  <Mount>YWL9</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>624</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE</Model>
+  <Mount>JK28</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>625</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>MI D0009</Model>
+  <Mount>EYN3</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>626</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton rC4444</Model>
+  <Mount>Z441</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>627</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>tratu t5R33311</Model>
+  <Mount>UAB99</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>628</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu x8</Model>
+  <Mount>E76</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>629</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>A12 S0003</Model>
+  <Mount>B95</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>630</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>YELI F</Model>
+  <Mount>M993</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>631</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>EOE Y</Model>
+  <Mount>Q772</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>632</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Yami</Model>
+  <Mount>Z776</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>633</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Carton d1</Model>
+  <Mount>ZP005</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>634</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami wD911</Model>
+  <Mount>O0</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>635</CameraId>
+  <Brand>Casio</Brand>
+  <Model>YELI m0G</Model>
+  <Mount>JGD223</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>636</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>MI</Model>
+  <Mount>S330</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>637</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz G</Model>
+  <Mount>LN9</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>638</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Hansa I</Model>
+  <Mount>AK880</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>639</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>EOE r4</Model>
+  <Mount>V339</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>640</CameraId>
+  <Brand>Medion</Brand>
+  <Model>EOE dU</Model>
+  <Mount>S0</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>641</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>tratu r1A</Model>
+  <Mount>JW28</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>642</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Beut</Model>
+  <Mount>AHB880</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>643</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Hansa r6O22266</Model>
+  <Mount>AW74</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>644</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa D</Model>
+  <Mount>XH119</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>645</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Beut M188</Model>
+  <Mount>HN6</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>646</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu cR776</Model>
+  <Mount>VD69</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>647</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Hansa A</Model>
+  <Mount>R660</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>648</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Beut j5Q</Model>
+  <Mount>M664</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>649</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>A12 C</Model>
+  <Mount>CP27</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>650</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa X</Model>
+  <Mount>J881</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>651</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Hansa h</Model>
+  <Mount>LH2</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>652</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>MI I</Model>
+  <Mount>RF5</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>653</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Yami</Model>
+  <Mount>OT72</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>654</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>EOE O</Model>
+  <Mount>M5</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>655</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 A96</Model>
+  <Mount>ELM98</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>656</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI e2S</Model>
+  <Mount>IXV83</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>657</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Carton</Model>
+  <Mount>GA775</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>658</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>A12 f1E</Model>
+  <Mount>SBS221</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>659</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon zE99</Model>
+  <Mount>VNK008</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>660</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Carton l0L</Model>
+  <Mount>Q5</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>661</CameraId>
+  <Brand>Sony</Brand>
+  <Model>EOE g5F111</Model>
+  <Mount>HMD4</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>662</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12</Model>
+  <Mount>TC07</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>663</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Beut f0Y</Model>
+  <Mount>W774</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>664</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Carton</Model>
+  <Mount>EBR229</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>665</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Kwanon b2W</Model>
+  <Mount>V2</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>666</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>tratu F</Model>
+  <Mount>WQV880</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>667</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Yami y6P</Model>
+  <Mount>VAG333</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>668</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa a2</Model>
+  <Mount>Q45</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>669</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12 l4R</Model>
+  <Mount>I77</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>670</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami c</Model>
+  <Mount>JQO8</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>671</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Beut</Model>
+  <Mount>PHZ550</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>672</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Beut dF</Model>
+  <Mount>J6</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>673</CameraId>
+  <Brand>Epson</Brand>
+  <Model>YELI</Model>
+  <Mount>L5</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>674</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI</Model>
+  <Mount>RB31</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>675</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>tratu</Model>
+  <Mount>A115</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>676</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Hansa j</Model>
+  <Mount>P993</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>677</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Kwanon e5</Model>
+  <Mount>E16</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>678</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut</Model>
+  <Mount>UO03</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>679</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>tratu</Model>
+  <Mount>L47</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>680</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami r1</Model>
+  <Mount>LVU43</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>681</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon hS</Model>
+  <Mount>M17</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>682</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE</Model>
+  <Mount>T8</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>683</CameraId>
+  <Brand>Medion</Brand>
+  <Model>tratu z</Model>
+  <Mount>CA3</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>684</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Carton J</Model>
+  <Mount>D88</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>685</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 u0S</Model>
+  <Mount>TCG4</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>686</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Hansa</Model>
+  <Mount>Y222</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>687</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Carton G99999</Model>
+  <Mount>IY51</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>688</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Beut</Model>
+  <Mount>J50</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>689</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>tratu g2</Model>
+  <Mount>HFC2</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>690</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Yami w3</Model>
+  <Mount>B1</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>691</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>zzz y</Model>
+  <Mount>RT1</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>692</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI</Model>
+  <Mount>G6</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>693</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Carton P75</Model>
+  <Mount>G442</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>694</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>A12 bE</Model>
+  <Mount>UB09</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>695</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>zzz T</Model>
+  <Mount>ZSE446</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>696</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>tratu gF</Model>
+  <Mount>W60</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>697</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Carton J</Model>
+  <Mount>CBA8</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>698</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz t9X333</Model>
+  <Mount>NUF115</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>699</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>YELI l8X600</Model>
+  <Mount>W44</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>700</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Kwanon p8</Model>
+  <Mount>TV00</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>701</CameraId>
+  <Brand>Epson</Brand>
+  <Model>MI n</Model>
+  <Mount>AW8</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>702</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu h</Model>
+  <Mount>P331</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>703</CameraId>
+  <Brand>Casio</Brand>
+  <Model>YELI o7</Model>
+  <Mount>BJV7</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>704</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Carton</Model>
+  <Mount>ML553</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>705</CameraId>
+  <Brand>Epson</Brand>
+  <Model>EOE</Model>
+  <Mount>XDL43</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>706</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Yami</Model>
+  <Mount>W1</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>707</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>tratu S</Model>
+  <Mount>W73</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>708</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Hansa</Model>
+  <Mount>CF13</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>709</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Hansa n</Model>
+  <Mount>HT3</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>710</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz d3N2226</Model>
+  <Mount>BGG10</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>711</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Kwanon j</Model>
+  <Mount>E0</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>712</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>MI U444</Model>
+  <Mount>XB4</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>713</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE a0J</Model>
+  <Mount>ZQ61</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>714</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon</Model>
+  <Mount>IUH995</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>715</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 d</Model>
+  <Mount>FH0</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>716</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Beut e4I8885</Model>
+  <Mount>X222</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>717</CameraId>
+  <Brand>Casio</Brand>
+  <Model>zzz</Model>
+  <Mount>WP2</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>718</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>EOE v</Model>
+  <Mount>YC998</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>719</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>zzz Q</Model>
+  <Mount>QG3</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>720</CameraId>
+  <Brand>Sony</Brand>
+  <Model>tratu w7</Model>
+  <Mount>I72</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>721</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu sX</Model>
+  <Mount>T3</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>722</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz</Model>
+  <Mount>RL994</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>723</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>tratu s</Model>
+  <Mount>J7</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>724</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>A12 H55577</Model>
+  <Mount>XPO68</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>725</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Carton l</Model>
+  <Mount>FZD02</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>726</CameraId>
+  <Brand>Epson</Brand>
+  <Model>MI J399</Model>
+  <Mount>P03</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>727</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Hansa w</Model>
+  <Mount>E0</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>728</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Beut</Model>
+  <Mount>YV39</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>729</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>A12 vG00</Model>
+  <Mount>UOL11</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>730</CameraId>
+  <Brand>Minox</Brand>
+  <Model>MI Y886</Model>
+  <Mount>R61</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>731</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>MI kU888</Model>
+  <Mount>CH6</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>732</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12 N8899</Model>
+  <Mount>CM8</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>733</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Hansa X</Model>
+  <Mount>JN669</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>734</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>EOE X</Model>
+  <Mount>X2</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>735</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Yami a3J</Model>
+  <Mount>CI95</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>736</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Carton p</Model>
+  <Mount>C6</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>737</CameraId>
+  <Brand>Sony</Brand>
+  <Model>EOE k8</Model>
+  <Mount>QIP3</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>738</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Yami r3D833</Model>
+  <Mount>J5</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>739</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>EOE d4</Model>
+  <Mount>D9</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>740</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI J</Model>
+  <Mount>W221</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>741</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Yami kQ933</Model>
+  <Mount>J41</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>742</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE K</Model>
+  <Mount>EAO226</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>743</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Kwanon O5</Model>
+  <Mount>Q14</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>744</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Carton V</Model>
+  <Mount>DKF40</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>745</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>EOE z</Model>
+  <Mount>W990</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>746</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>tratu n2O</Model>
+  <Mount>J554</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>747</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Beut mW1</Model>
+  <Mount>TZ55</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>748</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Kwanon f0D</Model>
+  <Mount>DE01</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>749</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Yami h0Y</Model>
+  <Mount>D445</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>750</CameraId>
+  <Brand>Sony</Brand>
+  <Model>A12 c8</Model>
+  <Mount>FYU15</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>751</CameraId>
+  <Brand>Epson</Brand>
+  <Model>YELI h6</Model>
+  <Mount>T667</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>752</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Yami</Model>
+  <Mount>TR338</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>753</CameraId>
+  <Brand>Medion</Brand>
+  <Model>YELI</Model>
+  <Mount>C117</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>754</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Beut qD66</Model>
+  <Mount>JN1</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>755</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa gS66</Model>
+  <Mount>N6</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>756</CameraId>
+  <Brand>Casio</Brand>
+  <Model>A12 P7733</Model>
+  <Mount>H116</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>757</CameraId>
+  <Brand>Sony</Brand>
+  <Model>zzz u3C6611</Model>
+  <Mount>K886</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>758</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton w</Model>
+  <Mount>H8</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>759</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Yami</Model>
+  <Mount>ER7</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>760</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton</Model>
+  <Mount>P881</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>761</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Beut W111</Model>
+  <Mount>KQS88</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>762</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Hansa n5</Model>
+  <Mount>FY3</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>763</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Hansa q6</Model>
+  <Mount>PCN669</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>764</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon n</Model>
+  <Mount>CPK08</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>765</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami y5A</Model>
+  <Mount>X3</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>766</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>A12</Model>
+  <Mount>Q85</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>767</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI v</Model>
+  <Mount>T44</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>768</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE V5</Model>
+  <Mount>I9</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>769</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>EOE h</Model>
+  <Mount>V6</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>770</CameraId>
+  <Brand>Minox</Brand>
+  <Model>tratu V0007</Model>
+  <Mount>ZYM79</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>771</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Yami</Model>
+  <Mount>PK43</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>772</CameraId>
+  <Brand>Casio</Brand>
+  <Model>EOE k3</Model>
+  <Mount>QRH449</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>773</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Carton</Model>
+  <Mount>H6</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>774</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Yami</Model>
+  <Mount>LMZ7</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>775</CameraId>
+  <Brand>Epson</Brand>
+  <Model>tratu W00044</Model>
+  <Mount>RR11</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>776</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut</Model>
+  <Mount>F4</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>777</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu v9N</Model>
+  <Mount>B881</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>778</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>EOE w3</Model>
+  <Mount>KFJ53</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>779</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 n8S44</Model>
+  <Mount>XFY2</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>780</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>YELI c8</Model>
+  <Mount>M46</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>781</CameraId>
+  <Brand>Minox</Brand>
+  <Model>YELI l</Model>
+  <Mount>I553</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>782</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>tratu</Model>
+  <Mount>Y550</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>783</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Hansa a2</Model>
+  <Mount>XS20</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>784</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>MI a3</Model>
+  <Mount>C5</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>785</CameraId>
+  <Brand>Casio</Brand>
+  <Model>A12 p8</Model>
+  <Mount>X38</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>786</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa</Model>
+  <Mount>E73</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>787</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz x7C00</Model>
+  <Mount>X04</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>788</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>EOE</Model>
+  <Mount>XZX776</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>789</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Kwanon</Model>
+  <Mount>I550</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>790</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Hansa I</Model>
+  <Mount>S63</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>791</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Carton o</Model>
+  <Mount>U9</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>792</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>tratu</Model>
+  <Mount>VMY3</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>793</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>A12 i</Model>
+  <Mount>L111</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>794</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Beut f5</Model>
+  <Mount>L774</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>795</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>zzz g6L</Model>
+  <Mount>DUX1</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>796</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Yami</Model>
+  <Mount>V82</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>797</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Beut H1111</Model>
+  <Mount>PCS87</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>798</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Hansa g8</Model>
+  <Mount>X2</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>799</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>EOE a2</Model>
+  <Mount>R93</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>800</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Kwanon G</Model>
+  <Mount>Y21</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>801</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>tratu dC</Model>
+  <Mount>R773</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>802</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Beut a0B</Model>
+  <Mount>EVU3</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>803</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Hansa</Model>
+  <Mount>L84</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>804</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>zzz vV</Model>
+  <Mount>DMU779</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>805</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton V55599</Model>
+  <Mount>QQE77</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>806</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Carton R</Model>
+  <Mount>SXL38</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>807</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa v0F</Model>
+  <Mount>H0</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>808</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Yami s1S7744</Model>
+  <Mount>WZI6</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>809</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Hansa g</Model>
+  <Mount>FLM02</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>810</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Beut u7Z0</Model>
+  <Mount>WA9</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>811</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>tratu j3</Model>
+  <Mount>J6</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>812</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz c8</Model>
+  <Mount>JDX22</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>813</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>YELI</Model>
+  <Mount>BV44</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>814</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>zzz cT</Model>
+  <Mount>CWQ9</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>815</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>YELI oP</Model>
+  <Mount>H64</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>816</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>A12 b2W</Model>
+  <Mount>SK997</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>817</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>YELI Q9966</Model>
+  <Mount>DS1</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>818</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>EOE</Model>
+  <Mount>RGN72</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>819</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>tratu r</Model>
+  <Mount>ORA4</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>820</CameraId>
+  <Brand>Minox</Brand>
+  <Model>A12 G55</Model>
+  <Mount>LO3</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>821</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>zzz r5H</Model>
+  <Mount>E221</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>822</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>MI o6M</Model>
+  <Mount>GHN1</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>823</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>tratu</Model>
+  <Mount>K229</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>824</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Kwanon xC</Model>
+  <Mount>U08</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>825</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami H</Model>
+  <Mount>VX770</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>826</CameraId>
+  <Brand>Epson</Brand>
+  <Model>A12 S</Model>
+  <Mount>U76</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>827</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>YELI k4Z33</Model>
+  <Mount>CMC663</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>828</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Yami mG11</Model>
+  <Mount>UIM6</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>829</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Kwanon p0L</Model>
+  <Mount>AFI4</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>830</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>MI b</Model>
+  <Mount>LXM116</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>831</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Carton c7Z555</Model>
+  <Mount>RP96</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>832</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Beut n2</Model>
+  <Mount>ZCB22</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>833</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Yami b</Model>
+  <Mount>V4</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>834</CameraId>
+  <Brand>Canon</Brand>
+  <Model>YELI</Model>
+  <Mount>SWD664</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>835</CameraId>
+  <Brand>Medion</Brand>
+  <Model>MI xY499</Model>
+  <Mount>J660</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>836</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Carton sW</Model>
+  <Mount>BU91</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>837</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>YELI jG</Model>
+  <Mount>QLQ56</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>838</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Carton S</Model>
+  <Mount>PS3</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>839</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Yami O255</Model>
+  <Mount>J64</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>840</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>zzz</Model>
+  <Mount>Y551</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>841</CameraId>
+  <Brand>Canon</Brand>
+  <Model>zzz P877</Model>
+  <Mount>XB117</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>842</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Kwanon R</Model>
+  <Mount>ZVK33</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>843</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Kwanon B6644</Model>
+  <Mount>E8</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>844</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>tratu T</Model>
+  <Mount>CL554</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>845</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Beut f5L</Model>
+  <Mount>O993</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>846</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>zzz w0</Model>
+  <Mount>W880</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>847</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Yami</Model>
+  <Mount>PI333</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>848</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Yami</Model>
+  <Mount>QKY7</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>849</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Hansa k5R77</Model>
+  <Mount>M85</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>850</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>MI w8E833</Model>
+  <Mount>E2</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>851</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>MI</Model>
+  <Mount>Z9</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>852</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Hansa</Model>
+  <Mount>Q2</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>853</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>MI</Model>
+  <Mount>KG0</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>854</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>YELI y</Model>
+  <Mount>A2</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>855</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>YELI</Model>
+  <Mount>SU80</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>856</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>EOE y6</Model>
+  <Mount>M442</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>857</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Yami o</Model>
+  <Mount>O69</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>858</CameraId>
+  <Brand>Medion</Brand>
+  <Model>zzz t6Y22</Model>
+  <Mount>R92</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>859</CameraId>
+  <Brand>Sony</Brand>
+  <Model>Carton w3N</Model>
+  <Mount>H74</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>860</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>A12 f</Model>
+  <Mount>J335</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>861</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>EOE</Model>
+  <Mount>PDD003</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>862</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>zzz</Model>
+  <Mount>ESR5</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>863</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>zzz M7</Model>
+  <Mount>E59</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>864</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>YELI D</Model>
+  <Mount>I9</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>865</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Beut y8</Model>
+  <Mount>F554</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>866</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>MI P</Model>
+  <Mount>H2</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>867</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>zzz d3</Model>
+  <Mount>LOJ15</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>868</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Hansa</Model>
+  <Mount>RR8</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>869</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>EOE b</Model>
+  <Mount>F7</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>870</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Beut Q</Model>
+  <Mount>M38</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>871</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>A12 D</Model>
+  <Mount>H0</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>872</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Hansa D</Model>
+  <Mount>VI8</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>873</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon k6</Model>
+  <Mount>O9</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>874</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>EOE Z</Model>
+  <Mount>P5</Mount>
+  <Megapixels>36</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>875</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>Carton c5</Model>
+  <Mount>YIP67</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>876</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>MI T955</Model>
+  <Mount>X0</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>877</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Kwanon o</Model>
+  <Mount>WQI47</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>878</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Beut t</Model>
+  <Mount>R116</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>879</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>zzz P</Model>
+  <Mount>U65</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>880</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>MI K00</Model>
+  <Mount>RH005</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>881</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Hansa J66</Model>
+  <Mount>C41</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>882</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Hansa</Model>
+  <Mount>EKZ553</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>883</CameraId>
+  <Brand>Canon</Brand>
+  <Model>tratu L</Model>
+  <Mount>FE227</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>884</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami wM666</Model>
+  <Mount>UKX20</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>885</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>EOE</Model>
+  <Mount>QV70</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>886</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Beut G9</Model>
+  <Mount>EX93</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>887</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Hansa p</Model>
+  <Mount>X92</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>888</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>MI M</Model>
+  <Mount>Y990</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>889</CameraId>
+  <Brand>Sony</Brand>
+  <Model>YELI kZ</Model>
+  <Mount>Y776</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>890</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>YELI</Model>
+  <Mount>J9</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>891</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>zzz l3</Model>
+  <Mount>ZOP3</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>892</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Beut</Model>
+  <Mount>L770</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>893</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>tratu V</Model>
+  <Mount>E227</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>894</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Beut O1116</Model>
+  <Mount>H110</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>895</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Yami r3</Model>
+  <Mount>SWP661</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>896</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>MI h9I33377</Model>
+  <Mount>ETA1</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>897</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Carton</Model>
+  <Mount>B15</Mount>
+  <Megapixels>31</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>898</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Kwanon</Model>
+  <Mount>I6</Mount>
+  <Megapixels>28</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>899</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>YELI D</Model>
+  <Mount>W440</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>900</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Carton V</Model>
+  <Mount>HQ1</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>901</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Beut</Model>
+  <Mount>V331</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>902</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Carton k</Model>
+  <Mount>QXX87</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>903</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Kwanon P77</Model>
+  <Mount>V665</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>904</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>Beut x1U66</Model>
+  <Mount>HX36</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>905</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>Carton y</Model>
+  <Mount>O76</Mount>
+  <Megapixels>25</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>906</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Carton</Model>
+  <Mount>I1</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>907</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>Beut</Model>
+  <Mount>O9</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>908</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>zzz</Model>
+  <Mount>FS5</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>909</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Kwanon xX88</Model>
+  <Mount>M03</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>910</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>EOE M</Model>
+  <Mount>LBL009</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>911</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Hansa n1X7</Model>
+  <Mount>ITP222</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>912</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Carton</Model>
+  <Mount>DO3</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>913</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>Yami M</Model>
+  <Mount>R771</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>914</CameraId>
+  <Brand>Epson</Brand>
+  <Model>MI m</Model>
+  <Mount>W95</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>915</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Carton T3</Model>
+  <Mount>U770</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>916</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>tratu</Model>
+  <Mount>C4</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>917</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>zzz y</Model>
+  <Mount>K440</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>918</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Yami v7A</Model>
+  <Mount>MD5</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>919</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Beut Q</Model>
+  <Mount>AGC7</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>920</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>MI</Model>
+  <Mount>CW2</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>921</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>MI Y</Model>
+  <Mount>IXL11</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>922</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>MI</Model>
+  <Mount>U660</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>923</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Hansa</Model>
+  <Mount>D8</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>924</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Hansa</Model>
+  <Mount>S5</Mount>
+  <Megapixels>39</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>925</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>MI</Model>
+  <Mount>M5</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>926</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Yami K</Model>
+  <Mount>SZ87</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>927</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Hansa W0</Model>
+  <Mount>CAQ7</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>928</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Yami a</Model>
+  <Mount>FTM10</Mount>
+  <Megapixels>16</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>929</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>Kwanon X</Model>
+  <Mount>EE778</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>930</CameraId>
+  <Brand>Sony</Brand>
+  <Model>EOE y</Model>
+  <Mount>JDY7</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>931</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>tratu</Model>
+  <Mount>VS12</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>932</CameraId>
+  <Brand>Epson</Brand>
+  <Model>tratu o1</Model>
+  <Mount>V4</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>933</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>Carton n4</Model>
+  <Mount>L27</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>934</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE t9E</Model>
+  <Mount>HT50</Mount>
+  <Megapixels>47</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>935</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>zzz</Model>
+  <Mount>OQ1</Mount>
+  <Megapixels>19</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>936</CameraId>
+  <Brand>D-Lux</Brand>
+  <Model>zzz aB</Model>
+  <Mount>D15</Mount>
+  <Megapixels>44</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>937</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>A12 w0W</Model>
+  <Mount>O7</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>938</CameraId>
+  <Brand>Medion</Brand>
+  <Model>EOE N66</Model>
+  <Mount>N889</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>939</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Carton iP77</Model>
+  <Mount>P4</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>940</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>YELI sY</Model>
+  <Mount>TQU7</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>941</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Carton h1R</Model>
+  <Mount>YMO46</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>942</CameraId>
+  <Brand>Minox</Brand>
+  <Model>Beut E5</Model>
+  <Mount>DWC881</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>943</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Carton W66</Model>
+  <Mount>ZA7</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>944</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Beut v6</Model>
+  <Mount>I80</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>945</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>tratu j3R</Model>
+  <Mount>J1</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>946</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Hansa S</Model>
+  <Mount>M99</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>947</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Kwanon v6</Model>
+  <Mount>CDR440</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>948</CameraId>
+  <Brand>Canon</Brand>
+  <Model>Yami</Model>
+  <Mount>LF770</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>949</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Kwanon p4D11188</Model>
+  <Mount>SPC7</Mount>
+  <Megapixels>38</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>950</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 D447</Model>
+  <Mount>QXB30</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>951</CameraId>
+  <Brand>Olympus</Brand>
+  <Model>MI Y</Model>
+  <Mount>AE442</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>952</CameraId>
+  <Brand>Sony</Brand>
+  <Model>tratu F25</Model>
+  <Mount>JOP88</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>953</CameraId>
+  <Brand>Canon</Brand>
+  <Model>MI n6</Model>
+  <Mount>R885</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>954</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>YELI A</Model>
+  <Mount>O4</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>955</CameraId>
+  <Brand>Canon</Brand>
+  <Model>YELI w4V266</Model>
+  <Mount>IR004</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>956</CameraId>
+  <Brand>Rollei</Brand>
+  <Model>tratu</Model>
+  <Mount>YWT1</Mount>
+  <Megapixels>13</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>957</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>MI</Model>
+  <Mount>F5</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>958</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Yami</Model>
+  <Mount>BCJ20</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>959</CameraId>
+  <Brand>Sigma</Brand>
+  <Model>Kwanon m9T</Model>
+  <Mount>UQ227</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>960</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>Yami Z6</Model>
+  <Mount>W7</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>961</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon f3</Model>
+  <Mount>USX8</Mount>
+  <Megapixels>34</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>962</CameraId>
+  <Brand>Sony</Brand>
+  <Model>zzz S955</Model>
+  <Mount>MG3</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>963</CameraId>
+  <Brand>Minox</Brand>
+  <Model>A12 G</Model>
+  <Mount>IUA10</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>964</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Hansa O2225</Model>
+  <Mount>NA2</Mount>
+  <Megapixels>11</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>965</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>A12 xW88</Model>
+  <Mount>V37</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>966</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Hansa f</Model>
+  <Mount>V9</Mount>
+  <Megapixels>35</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>967</CameraId>
+  <Brand>Minox</Brand>
+  <Model>MI P7799</Model>
+  <Mount>JZW63</Mount>
+  <Megapixels>21</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>968</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>MI</Model>
+  <Mount>KPY445</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>969</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Kwanon X79</Model>
+  <Mount>E84</Mount>
+  <Megapixels>20</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>970</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>Yami</Model>
+  <Mount>VOK2</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>971</CameraId>
+  <Brand>Epson</Brand>
+  <Model>Hansa V00033</Model>
+  <Mount>T4</Mount>
+  <Megapixels>10</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>972</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>Kwanon</Model>
+  <Mount>T8</Mount>
+  <Megapixels>48</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>973</CameraId>
+  <Brand>AgfaPhoto</Brand>
+  <Model>zzz</Model>
+  <Mount>M70</Mount>
+  <Megapixels>33</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>974</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>Beut</Model>
+  <Mount>I90</Mount>
+  <Megapixels>42</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>975</CameraId>
+  <Brand>Praktica</Brand>
+  <Model>YELI w6</Model>
+  <Mount>SQ6</Mount>
+  <Megapixels>18</Megapixels>
+  <Color>brown</Color>
+</row>
+<row>
+  <CameraId>976</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>YELI</Model>
+  <Mount>T9</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>977</CameraId>
+  <Brand>Casio</Brand>
+  <Model>tratu k6</Model>
+  <Mount>D02</Mount>
+  <Megapixels>29</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>978</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>A12 hJ</Model>
+  <Mount>ABX71</Mount>
+  <Megapixels>43</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>979</CameraId>
+  <Brand>Canon</Brand>
+  <Model>EOE tO</Model>
+  <Mount>SSW10</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>980</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>Beut C</Model>
+  <Mount>HN771</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>981</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Kwanon mK</Model>
+  <Mount>D47</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>red</Color>
+</row>
+<row>
+  <CameraId>982</CameraId>
+  <Brand>Tevion</Brand>
+  <Model>EOE w3</Model>
+  <Mount>F9</Mount>
+  <Megapixels>27</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>983</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Carton I</Model>
+  <Mount>DSJ2</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>984</CameraId>
+  <Brand>Casio</Brand>
+  <Model>tratu F</Model>
+  <Mount>VU82</Mount>
+  <Megapixels>32</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>985</CameraId>
+  <Brand>Casio</Brand>
+  <Model>Carton v7</Model>
+  <Mount>MOU991</Mount>
+  <Megapixels>23</Megapixels>
+  <Color>silver</Color>
+</row>
+<row>
+  <CameraId>986</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Kwanon c6L</Model>
+  <Mount>V7</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>987</CameraId>
+  <Brand>Pentax</Brand>
+  <Model>Kwanon r8I</Model>
+  <Mount>Z89</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>pink</Color>
+</row>
+<row>
+  <CameraId>988</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Yami</Model>
+  <Mount>K02</Mount>
+  <Megapixels>37</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>989</CameraId>
+  <Brand>Fujifilm</Brand>
+  <Model>A12</Model>
+  <Mount>VEU21</Mount>
+  <Megapixels>12</Megapixels>
+  <Color>white</Color>
+</row>
+<row>
+  <CameraId>990</CameraId>
+  <Brand>C-Lux</Brand>
+  <Model>zzz L2288</Model>
+  <Mount>M338</Mount>
+  <Megapixels>40</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>991</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Yami s4N</Model>
+  <Mount>RSQ02</Mount>
+  <Megapixels>49</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>992</CameraId>
+  <Brand>V-Lux</Brand>
+  <Model>Carton q4</Model>
+  <Mount>JR441</Mount>
+  <Megapixels>14</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>993</CameraId>
+  <Brand>Panasonic</Brand>
+  <Model>MI T</Model>
+  <Mount>ZH4</Mount>
+  <Megapixels>46</Megapixels>
+  <Color>gray</Color>
+</row>
+<row>
+  <CameraId>994</CameraId>
+  <Brand>Vageeswari</Brand>
+  <Model>Kwanon</Model>
+  <Mount>KJY5</Mount>
+  <Megapixels>26</Megapixels>
+  <Color>black</Color>
+</row>
+<row>
+  <CameraId>995</CameraId>
+  <Brand>Canon</Brand>
+  <Model>A12 S9</Model>
+  <Mount>K8</Mount>
+  <Megapixels>41</Megapixels>
+  <Color>blue</Color>
+</row>
+<row>
+  <CameraId>996</CameraId>
+  <Brand>Thomson</Brand>
+  <Model>A12 g1F</Model>
+  <Mount>F338</Mount>
+  <Megapixels>45</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>997</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>YELI X</Model>
+  <Mount>BZ51</Mount>
+  <Megapixels>17</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>998</CameraId>
+  <Brand>Traveler</Brand>
+  <Model>EOE C</Model>
+  <Mount>SH83</Mount>
+  <Megapixels>15</Megapixels>
+  <Color>chroma</Color>
+</row>
+<row>
+  <CameraId>999</CameraId>
+  <Brand>Medion</Brand>
+  <Model>Kwanon h7H</Model>
+  <Mount>H0</Mount>
+  <Megapixels>22</Megapixels>
+  <Color>purple</Color>
+</row>
+<row>
+  <CameraId>1000</CameraId>
+  <Brand>Ricoh</Brand>
+  <Model>A12 k9</Model>
+  <Mount>D38</Mount>
+  <Megapixels>30</Megapixels>
+  <Color>yellow</Color>
+</row>
+<row>
+  <CameraId>1011</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Yami z16</Model>
+  <Mount>ERP</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>White</Color>
+</row>
+<row>
+  <CameraId>1012</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Yami z16</Model>
+  <Mount>ERP</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>White</Color>
+</row>
+<row>
+  <CameraId>1013</CameraId>
+  <Brand>Nikon</Brand>
+  <Model>Yami z16</Model>
+  <Mount>ERP</Mount>
+  <Megapixels>24</Megapixels>
+  <Color>White</Color>
+</row>
+</ROOT>
